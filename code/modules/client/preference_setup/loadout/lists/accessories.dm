@@ -137,16 +137,6 @@
 	cost = 1
 	flags = GEAR_HAS_TYPE_SELECTION
 
-/datum/gear/accessory/pronouns
-	display_name = "pronoun badge selection"
-	path = /obj/item/clothing/accessory/pronouns
-	flags = GEAR_HAS_TYPE_SELECTION
-
-/datum/gear/accessory/pridepins
-	display_name = "pride pin selection"
-	path = /obj/item/clothing/accessory/pridepins
-	flags = GEAR_HAS_TYPE_SELECTION
-
 /datum/gear/accessory/neckerchief
 	display_name = "neckerchief, colour select"
 	description = "A piece of cloth tied around the neck. A favorite of Sailors and Partisans everywhere."
