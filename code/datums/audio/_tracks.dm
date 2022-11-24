@@ -323,3 +323,8 @@
 	source = 'sound/music/pathologic.ogg'
 	title = "Main Theme (Pathologic)"
 	author = "Andriesh Gandabur"
+	
+/decl/audio/track/tauceti
+	source = 'sound/music/tauceti.ogg'
+	title = "Tau Ceti"
+	author = "Vladimir Visotskiy"
