@@ -156,6 +156,37 @@
 		icon_state = "pdw-empty"
 	return
 
+/obj/item/gun/projectile/automatic/dragunov
+	name = "dragunov sniper rifle"
+	desc = " Dragunov sniper rifle created by a Terran craftsman in Sol, the main goal is shooting at medium and long distances."
+	icon_state = "dragunov"
+	item_state = "dragunov"
+	icon = 'infinity/icons/obj/dragunov.dmi'
+	wielded_item_state = "dragunov-wielded"
+	item_icons = list(
+		slot_r_hand_str = 'infinity/icons/mob/onmob/dp.dmi',
+		slot_l_hand_str = 'infinity/icons/mob/onmob/dl.dmi',
+		)
+	force = 15
+	caliber = CALIBER_ANTIMATERIAL_SMALL
+	origin_tech = list(TECH_COMBAT = 8, TECH_MATERIAL = 2)
+	slot_flags = SLOT_BACK
+	load_method = MAGAZINE
+	magazine_type = /obj/item/ammo_magazine/c12755
+	allowed_magazines = /obj/item/ammo_magazine/c12755
+	firemodes = list(
+		list(mode_name="semiauto",       burst=1, fire_delay=0,    move_delay=null, one_hand_penalty=1, burst_accuracy=null, dispersion=null),
+		)
+
+	bulk = GUN_BULK_CARABINE
+	w_class = ITEM_SIZE_NORMAL
+	one_hand_penalty = 2
+
+/obj/item/gun/projectile/automatic/nt41/on_update_icon()
+	..()
+	icon_state = (ammo_magazine)? "dragunov" : "dragunov-e"
+
+
 /obj/item/gun/projectile/automatic/nt41/armory
 	starts_loaded = 0
 
