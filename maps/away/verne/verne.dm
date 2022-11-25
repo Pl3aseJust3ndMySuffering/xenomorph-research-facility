@@ -85,9 +85,6 @@
 	desc = "Pilot's access on Verne"
 	region = ACCESS_REGION_NONE
 
-/obj/item/card/id/pilot
-	access = list(access_verne)
-
 /obj/item/card/id/verne/pilot
 	access = list(access_verne, access_verne_pilot)
 
