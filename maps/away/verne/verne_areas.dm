@@ -5,6 +5,7 @@
 /area/verne/bridge
 	name = "\improper SRV Verne Bridge"
 	icon_state = "bridge"
+	req_access = list("ACCESS_VERNE", "ACCESS_VERNE_PILOT")
 
 /area/verne/bridge/access
 	name = "\improper SRV Verne Bridge Access"
@@ -36,6 +37,7 @@
 	name = "\improper Verne Upper Utilities Transfer"
 	icon_state = "engineeringatmos"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
+	req_access = list("ACCESS_VERNE", "ACCESS_VERNE_PILOT")
 
 /area/verne/engineering/atmospherics
 	name = "\improper Verne Atmospherics"
