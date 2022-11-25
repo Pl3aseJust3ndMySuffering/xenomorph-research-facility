@@ -79,6 +79,19 @@
 /obj/item/card/id/verne/professor
 	access = list(access_verne, access_verne_professor)
 
+/var/const/access_verne_pilot = "ACCESS_VERNE_PILOT"
+/datum/access/verne/pilot
+	id = access_verne_pilot
+	desc = "Pilot's access on Verne"
+	region = ACCESS_REGION_NONE
+
+/obj/item/card/id/pilot
+	access = list(access_verne)
+
+/obj/item/card/id/verne/pilot
+	access = list(access_verne, access_verne_pilot)
+
+
 /obj/machinery/alarm/verne
 	req_access = list(access_verne)
 

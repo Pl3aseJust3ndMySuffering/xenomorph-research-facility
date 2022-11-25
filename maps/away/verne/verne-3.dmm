@@ -398,7 +398,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass/command{
-	name = "Verne Bridge"
+	name = "Verne Bridge";
+	req_access = list(ACCESS_VERNE_PILOT)
 	},
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
@@ -3192,7 +3193,9 @@
 	id = "professor_space2";
 	pixel_x = -22
 	},
-/obj/item/paper/verne/manifest,
+/obj/machinery/photocopier/faxmachine{
+	req_access = list(ACCESS_VERNE_PROFESSOR)
+	},
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "xs" = (
@@ -3724,7 +3727,8 @@
 /area/verne/common)
 "Bs" = (
 /obj/machinery/door/airlock/glass/command{
-	name = "Verne Bridge"
+	name = "Verne Bridge";
+	req_access = list(ACCESS_VERNE_PILOT, ACCESS_VERNE_PROFESSOR)
 	},
 /obj/structure/cable{
 	d1 = 1;
