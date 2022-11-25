@@ -55,9 +55,6 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
 "ag" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
@@ -74,22 +71,7 @@
 	},
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
-"ah" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
-	},
-/obj/structure/bed/chair/comfy/brown{
-	dir = 8
-	},
-/turf/simulated/floor/wood/bamboo,
-/area/verne/common/room/six)
 "ai" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -359,16 +341,11 @@
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating)
 "br" = (
-/obj/structure/closet/wardrobe,
-/obj/random/clothing,
-/obj/random/accessory,
-/obj/random/glasses,
-/obj/random/hat,
-/obj/random/shoes,
-/obj/effect/floor_decal/corner/b_green/full,
-/obj/item/device/radio/headset/map_preset/verne,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "bt" = (
 /turf/simulated/floor/carpet/blue2,
 /area/verne/common)
@@ -397,9 +374,8 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/glass/command{
-	name = "Verne Bridge";
-	req_access = list(ACCESS_VERNE_PILOT)
+/obj/machinery/door/airlock/civilian{
+	name = "Verne Pilot Quarters"
 	},
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
@@ -984,26 +960,30 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
 "fd" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup{
+	pixel_x = 7;
+	pixel_y = 10
+	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 4
+	},
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
+"fh" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/button/windowtint{
+	dir = 4;
+	id = "six_space";
+	pixel_x = -37;
+	pixel_y = -25
 	},
-/obj/item/stool/wood,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
-"fh" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 1
-	},
-/obj/machinery/light,
-/turf/simulated/floor/wood/bamboo,
+/turf/simulated/floor/carpet/red,
 /area/verne/common/room/six)
 "fl" = (
 /obj/effect/floor_decal/corner/b_green/mono,
@@ -1144,6 +1124,9 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/machinery/vending/cola/small{
+	pixel_y = 28
+	},
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "gC" = (
@@ -1273,9 +1256,6 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/room/two)
 "hE" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
 /obj/structure/cable{
 	d1 = 4;
 	d2 = 8;
@@ -1301,14 +1281,14 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "hH" = (
-/obj/structure/bed/chair/comfy/brown{
-	dir = 1
-	},
 /obj/machinery/button/alternate/door/bolts{
 	id_tag = "vernerdoffice";
 	name = "Office Bolt Control";
 	pixel_x = 7;
 	pixel_y = 39
+	},
+/obj/structure/bed/chair/armchair/black{
+	dir = 1
 	},
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
@@ -1906,14 +1886,15 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/bridge)
 "nd" = (
-/obj/effect/floor_decal/corner/b_green{
-	dir = 5
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -24
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 10
+/obj/structure/bed/chair/armchair/black{
+	dir = 8
 	},
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "nf" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall,
@@ -1968,10 +1949,14 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 10
 	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/item/stool/wood,
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled,
 /area/verne/common/room/seven)
 "nO" = (
@@ -2345,14 +2330,11 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "qB" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
 	},
-/obj/structure/table/standard,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/floor/carpet/red,
+/area/verne/common/room/six)
 "qH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/b_green{
@@ -2661,14 +2643,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
-"tc" = (
-/obj/structure/bed/padded,
-/obj/structure/curtain/open/bed,
-/obj/item/bedsheet/blue,
-/obj/effect/floor_decal/corner/b_green/full,
-/obj/effect/submap_landmark/spawnpoint/CTI_Undergraduate_Xenoscience_Researcher,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
 "tl" = (
 /obj/machinery/optable,
 /obj/effect/floor_decal/floordetail/edgedrain{
@@ -2788,7 +2762,9 @@
 /area/verne/common/messseating)
 "uh" = (
 /obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull/verne,
+/obj/effect/wallframe_spawn/reinforced/polarized{
+	id = "six_space"
+	},
 /obj/machinery/door/blast/regular{
 	dir = 4;
 	id_tag = "verneblast";
@@ -2937,8 +2913,8 @@
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "vf" = (
-/turf/simulated/wall/r_wall,
-/area/verne/common/room/seven)
+/turf/simulated/floor/carpet/red,
+/area/verne/common/room/six)
 "vl" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -3089,6 +3065,8 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/civilian{
+	id_tag = "vernepremium";
+	locked = 1;
 	name = "Verne premium room"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3193,9 +3171,7 @@
 	id = "professor_space2";
 	pixel_x = -22
 	},
-/obj/machinery/photocopier/faxmachine{
-	req_access = list(ACCESS_VERNE_PROFESSOR)
-	},
+/obj/item/toy/icarus_model,
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "xs" = (
@@ -3390,6 +3366,20 @@
 /obj/machinery/shipsensors,
 /turf/simulated/floor/reinforced/airless,
 /area/verne/bridge)
+"yR" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/verne/common/room/seven)
 "yS" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/adv,
@@ -3431,16 +3421,11 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/bridge)
 "zl" = (
-/obj/effect/floor_decal/corner/b_green/mono,
-/obj/machinery/button/windowtint{
-	id = "professor_space";
-	pixel_y = 22
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
-/obj/machinery/light{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/verne/common/room/seven)
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "zm" = (
 /obj/structure/table/standard,
 /obj/machinery/door/firedoor,
@@ -3455,34 +3440,19 @@
 /obj/effect/submap_landmark/spawnpoint/CTI_psionic_trainee,
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
-"zt" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/firealarm{
+"zu" = (
+/obj/machinery/alarm/verne{
 	dir = 1;
 	pixel_y = -24
 	},
+/obj/structure/table/glass,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/machinery/light/small,
+/obj/item/material/ashtray/bronze,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
-"zu" = (
-/obj/effect/floor_decal/corner/b_green{
-	dir = 5
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 4
-	},
-/obj/item/stool/wood,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
 "zy" = (
 /obj/item/mop,
 /obj/item/device/lightreplacer,
@@ -3632,10 +3602,18 @@
 	dir = 4;
 	id_tag = "vernesecure";
 	name = "Secure Holding Door Bolts";
-	pixel_x = -24
+	pixel_x = -24;
+	pixel_y = 7
 	},
 /obj/item/rig/hazard/equipped,
 /obj/random/documents,
+/obj/machinery/button/alternate/door/bolts{
+	dir = 4;
+	id_tag = "vernepremium";
+	name = "Student's reward mechanism";
+	pixel_x = -24;
+	pixel_y = -5
+	},
 /turf/simulated/floor/carpet/blue2,
 /area/verne/common/professor)
 "AW" = (
@@ -3728,7 +3706,7 @@
 "Bs" = (
 /obj/machinery/door/airlock/glass/command{
 	name = "Verne Bridge";
-	req_access = list(ACCESS_VERNE_PILOT, ACCESS_VERNE_PROFESSOR)
+	req_access = list(ACCESS_VERNE_PILOT)
 	},
 /obj/structure/cable{
 	d1 = 1;
@@ -3738,7 +3716,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
-/obj/item/modular_computer/laptop/preset/custom_loadout/advanced,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/bridge)
 "Bu" = (
@@ -3906,15 +3883,15 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "CV" = (
-/obj/effect/floor_decal/corner/b_green{
-	dir = 5
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/obj/structure/closet/wardrobe,
+/obj/random/shoes,
+/obj/random/accessory,
+/obj/random/gloves,
+/obj/random/accessory,
+/obj/random/glasses,
+/obj/item/toy/plushie/resomi,
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "CX" = (
 /obj/structure/bed/padded,
 /obj/structure/curtain/open/bed,
@@ -4184,20 +4161,16 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/verne/common/room)
 "FM" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+	dir = 6
 	},
-/obj/machinery/light_switch{
-	dir = 1;
-	pixel_y = -22
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
@@ -4216,6 +4189,14 @@
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
+"FP" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/obj/item/bedsheet/blue,
+/obj/effect/submap_landmark/spawnpoint/CTI_Undergraduate_Xenoscience_Researcher,
+/obj/effect/floor_decal/corner/b_green/full,
+/turf/simulated/floor/tiled,
+/area/verne/common/room/seven)
 "FX" = (
 /obj/structure/closet/firecloset,
 /obj/effect/floor_decal/corner/b_green/mono,
@@ -4425,19 +4406,18 @@
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "Ij" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 22
+	},
 /obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "Ik" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall,
@@ -4581,17 +4561,14 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/hydroponics)
 "Jn" = (
-/obj/structure/table/woodentable,
-/obj/item/haircomb/random,
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
 	},
 /obj/machinery/light{
 	dir = 4
 	},
-/obj/machinery/vending/cola/small{
-	pixel_x = 29
-	},
+/obj/structure/displaycase,
+/obj/item/organ/internal/gland/hunger,
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "Jp" = (
@@ -4661,16 +4638,12 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 4
-	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
+	d2 = 2;
+	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
@@ -4683,9 +4656,7 @@
 /turf/simulated/wall,
 /area/verne/common/room/six)
 "Kb" = (
-/obj/structure/bed/padded,
-/obj/item/bedsheet/blue,
-/obj/structure/curtain/open/black,
+/obj/structure/bookcase/manuals/xenoarchaeology,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "Kl" = (
@@ -4743,8 +4714,6 @@
 /obj/machinery/power/terminal{
 	dir = 8
 	},
-/obj/structure/closet/crate,
-/obj/structure/closet/crate,
 /obj/item/toy/plushie/dakimakura,
 /obj/item/clothing/head/collectable/kitty,
 /obj/item/reagent_containers/food/drinks/dry_ramen,
@@ -4754,6 +4723,7 @@
 /obj/structure/window/reinforced{
 	dir = 8
 	},
+/obj/structure/closet/wardrobe,
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
 "KJ" = (
@@ -4778,24 +4748,18 @@
 /obj/random/accessory,
 /obj/random/glasses,
 /obj/random/shoes,
-/obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/effect/floor_decal/corner/b_green/full,
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/verne/common/room/seven)
 "KT" = (
-/obj/machinery/alarm/verne{
-	dir = 1;
-	pixel_y = -24
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/unary/vent_scrubber/on{
-	dir = 1
-	},
-/turf/simulated/floor/wood/bamboo,
+/turf/simulated/floor/carpet/red,
 /area/verne/common/room/six)
 "KU" = (
 /obj/machinery/cooker/grill,
@@ -4884,23 +4848,16 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/common/cryo)
 "LD" = (
-/obj/machinery/door/firedoor,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
+	dir = 9
 	},
-/obj/machinery/door/airlock/civilian{
-	name = "Verne Stateroom Seven"
+/obj/machinery/power/apc/verne{
+	dir = 4;
+	pixel_x = 24
 	},
-/turf/simulated/floor/tiled/steel_ridged,
-/area/verne/common/room/seven)
+/obj/structure/cable,
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "LJ" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -4927,11 +4884,12 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 5
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 5
+/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
+/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
@@ -4951,12 +4909,10 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/bridge/access)
 "Mb" = (
-/obj/structure/table/woodentable,
 /obj/machinery/alarm/verne{
 	pixel_y = 24
 	},
-/obj/item/trash/beans,
-/obj/item/material/kitchen/utensil/spork,
+/obj/skeleton,
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "Md" = (
@@ -5102,8 +5058,11 @@
 /obj/structure/closet/wardrobe,
 /obj/random/clothing,
 /obj/random/glasses,
-/obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/effect/floor_decal/corner/b_green/full,
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
 /turf/simulated/floor/tiled,
 /area/verne/common/room/seven)
 "NH" = (
@@ -5111,14 +5070,8 @@
 /turf/simulated/wall,
 /area/verne/common/room/three)
 "NI" = (
-/obj/structure/closet/wardrobe,
-/obj/random/clothing,
-/obj/random/accessory,
-/obj/random/gloves,
-/obj/effect/floor_decal/corner/b_green/full,
-/obj/item/device/radio/headset/map_preset/verne,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "NM" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
@@ -5130,14 +5083,8 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/room/five)
 "NN" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/item/stool/wood,
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/wall,
+/area/verne/common/room/six)
 "Ob" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -5162,9 +5109,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical/storage)
 "Os" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 8;
@@ -5178,11 +5122,10 @@
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
 "Ow" = (
-/obj/effect/floor_decal/corner/b_green{
-	dir = 5
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/black,
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "OA" = (
 /obj/effect/floor_decal/corner/b_green/mono,
 /obj/structure/bookcase/manuals/medical,
@@ -5347,6 +5290,24 @@
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
+"Qo" = (
+/obj/machinery/door/airlock/civilian{
+	name = "Verne Stateroom Seven"
+	},
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel_ridged,
+/area/verne/common/room/seven)
 "Qp" = (
 /obj/machinery/computer/ship/sensors,
 /obj/effect/floor_decal/corner/b_green/mono,
@@ -5669,17 +5630,11 @@
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
 "St" = (
-/obj/machinery/power/apc/verne{
-	dir = 8;
-	is_critical = 1;
-	pixel_x = -24
+/obj/structure/bed/chair/armchair/black{
+	dir = 4
 	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/room/seven)
+/turf/simulated/floor/wood/bamboo,
+/area/verne/common/room/six)
 "Sv" = (
 /obj/effect/floor_decal/corner/b_green{
 	dir = 10
@@ -5707,6 +5662,23 @@
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/tiled/freezer,
 /area/verne/common/kitchen/fridge)
+"SH" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled,
+/area/verne/common/room/seven)
 "SJ" = (
 /obj/machinery/icecream_vat,
 /turf/simulated/floor/tiled/freezer,
@@ -5802,7 +5774,7 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "TY" = (
-/obj/structure/bookcase/manuals/xenoarchaeology,
+/obj/structure/coatrack,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "Ua" = (
@@ -5838,16 +5810,7 @@
 /turf/space,
 /area/space)
 "Ut" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/structure/closet/wardrobe,
-/obj/random/shoes,
-/obj/random/accessory,
-/obj/random/gloves,
-/obj/random/accessory,
-/obj/random/glasses,
-/obj/item/toy/plushie/resomi,
+/obj/structure/bookcase/manuals/research_and_development,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "Uy" = (
@@ -5883,10 +5846,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "UK" = (
-/obj/machinery/button/windowtint{
-	dir = 1;
-	id = "six_space";
-	pixel_y = -22
+/obj/machinery/computer/modular/preset/filemanager{
+	dir = 4
 	},
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
@@ -6149,6 +6110,11 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 10
 	},
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
 /turf/simulated/floor/tiled,
 /area/verne/common/room/seven)
 "WY" = (
@@ -6157,6 +6123,19 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
+"WZ" = (
+/obj/structure/bed/padded,
+/obj/structure/curtain/open/bed,
+/obj/item/bedsheet/blue,
+/obj/effect/submap_landmark/spawnpoint/CTI_Undergraduate_Xenoscience_Researcher,
+/obj/machinery/power/apc/verne{
+	is_critical = 1;
+	pixel_y = -24
+	},
+/obj/effect/floor_decal/corner/b_green/full,
+/obj/structure/cable,
+/turf/simulated/floor/tiled,
+/area/verne/common/room/seven)
 "Xb" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -6188,8 +6167,16 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 10
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
+	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/room/seven)
@@ -6198,8 +6185,9 @@
 	dir = 1;
 	pixel_y = -24
 	},
-/obj/effect/floor_decal/corner/b_green/mono,
 /obj/machinery/light,
+/obj/effect/floor_decal/corner/b_green/mono,
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/room/seven)
 "XI" = (
@@ -6322,21 +6310,9 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/medical/surgery)
 "YB" = (
-/obj/machinery/power/apc/verne{
-	dir = 1;
-	pixel_y = 24
+/obj/machinery/light{
+	dir = 1
 	},
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/table/glass,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "YC" = (
@@ -12935,12 +12911,12 @@ ax
 XV
 XV
 uh
+uh
+XV
+XV
 WD
-vf
 hL
-vf
-hL
-vf
+WD
 WD
 oy
 oy
@@ -13087,12 +13063,12 @@ Cg
 JV
 Kb
 UK
-xm
-tc
+fd
+NI
 Ow
-St
+xm
 WL
-tc
+WZ
 WD
 hu
 hu
@@ -13239,11 +13215,11 @@ NM
 JV
 Ut
 fh
-xm
+qB
 NI
-Ow
-NN
-WL
+St
+xm
+yR
 NG
 xm
 wD
@@ -13391,10 +13367,10 @@ to
 JV
 YB
 KT
-xm
+vf
 zl
 zu
-qB
+xm
 nM
 XA
 xm
@@ -13541,12 +13517,12 @@ JP
 Pc
 Ww
 nu
-ah
-zt
-xm
+NI
+KT
+vf
 br
 nd
-fd
+xm
 Xs
 KP
 xm
@@ -13695,12 +13671,12 @@ Jr
 JV
 TY
 FM
-xm
-tc
-CV
 Ij
-WL
-tc
+LD
+CV
+xm
+SH
+FP
 xm
 kL
 tZ
@@ -13847,11 +13823,11 @@ DU
 JV
 JV
 wA
-xm
+JV
+NN
+NN
 nh
-nh
-LD
-nh
+Qo
 nh
 xm
 XU
