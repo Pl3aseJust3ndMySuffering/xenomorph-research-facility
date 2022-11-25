@@ -5,6 +5,7 @@
 	description = "Bunch of monoliths surrounding an artifact."
 	suffixes = list("bunker/bunker.dmm")
 	spawn_cost = 1
+	ruin_tags = RUIN_HUMAN
 
 /obj/machinery/telecomms/relay/preset/bunker
 	id = "Bunker Relay"
