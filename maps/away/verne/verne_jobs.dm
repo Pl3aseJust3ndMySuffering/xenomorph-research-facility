@@ -243,6 +243,7 @@
 	name = VERNE_OUTFIT_JOB_NAME("Pilot")
 	uniform = /obj/item/clothing/under/suit_jacket/navy
 	shoes = /obj/item/clothing/shoes/dress/caretakershoes
+	id_types = list(/obj/item/card/id/verne/pilot)
 	belt = /obj/item/storage/belt/holster/general
 	r_pocket = /obj/item/gun/energy/gun/small
 	l_pocket = /obj/item/crowbar/prybar
