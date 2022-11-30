@@ -126,3 +126,8 @@
 	key = "snap"
 	emote_message_3p = "USER щёлкает пальцами."
 	emote_sound = 'infinity/sound/voice/fingersnap.ogg'
+
+/decl/emote/audible/moan
+	emote_sound = list(
+		FEMALE = list('infinity/sound/voice/moan1.ogg', 'infinity/sound/voice/moan2.ogg',  'infinity/sound/voice/moan3.ogg'), 'infinity/sound/voice/moan4.ogg')
+	sounded_species = SOUNDED_SPECIES
