@@ -130,6 +130,24 @@
 
 /obj/structure/closet/crate/secure/large/phoron/experimentalsm/WillContain()
 	return list(/obj/machinery/power/supermatter/randomsample)
+	
+/obj/item/storage/secure/safe/verne
+	name = "professors safe"
+
+	New()
+		..()
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/item/spacecash/bundle/c1000(src)
+		new /obj/random/documents(src)
+		new /obj/item/rig/hazard/equipped(src)
 
 /obj/effect/floor_decal/cti
 	name = "\improper CTI logo"

@@ -1112,6 +1112,11 @@
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
 /area/verne/hangar)
+"ec" = (
+/obj/effect/paint_stripe/gunmetal,
+/obj/effect/paint/red,
+/turf/simulated/wall/r_titanium,
+/area/verne/catfish/engineering)
 "ed" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
@@ -1178,10 +1183,6 @@
 /area/verne/hangar)
 "et" = (
 /obj/machinery/shipsensors,
-/obj/structure/handrail{
-	dir = 4;
-	icon_state = "handrail"
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/catfish/engineering)
 "ev" = (
@@ -5120,8 +5121,8 @@
 /area/verne/engineering/workshop)
 "Kg" = (
 /obj/structure/sign/warning/hot_exhaust,
-/obj/effect/paint/green,
 /obj/effect/paint_stripe/gunmetal,
+/obj/effect/paint/red,
 /turf/simulated/wall/r_titanium,
 /area/verne/catfish/engineering)
 "Ko" = (
@@ -13798,7 +13799,7 @@ qB
 qB
 qB
 qB
-Yw
+ec
 IY
 Kg
 lT
@@ -13950,7 +13951,7 @@ Yw
 Yw
 Yw
 Yw
-Yw
+ec
 XN
 zE
 lT
@@ -14254,8 +14255,8 @@ WL
 iA
 ND
 rs
-Yw
-Yw
+ec
+ec
 Kg
 lT
 bR
@@ -14558,8 +14559,8 @@ Yw
 lG
 mx
 Vx
-Yw
-Yw
+ec
+ec
 Kg
 lT
 bR
@@ -14862,7 +14863,7 @@ Yw
 Yw
 Yw
 Yw
-Yw
+ec
 mq
 zE
 lT
@@ -15014,7 +15015,7 @@ wz
 wz
 wz
 wz
-Yw
+ec
 Hv
 Kg
 lT

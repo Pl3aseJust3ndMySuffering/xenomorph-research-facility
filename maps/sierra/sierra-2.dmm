@@ -14770,10 +14770,10 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/engineering/hardstorage)
 "aAc" = (
-/obj/machinery/cryopod{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/effect/floor_decal/techfloor/orange{
+/obj/structure/broken_cryo{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -14812,9 +14812,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "aAg" = (
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/machinery/light/small{
 	dir = 1
@@ -33361,9 +33358,6 @@
 /turf/simulated/floor/plating,
 /area/hallway/primary/seconddeck/fore)
 "boD" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/structure/sign/poster{
 	pixel_y = 32
 	},
@@ -33376,6 +33370,9 @@
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
+	},
+/obj/structure/broken_cryo{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
@@ -35265,9 +35262,6 @@
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
 	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
 	},
@@ -35439,9 +35433,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
@@ -36576,9 +36567,6 @@
 /area/engineering/materials_storage)
 "lCV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
 	},
@@ -36786,8 +36774,10 @@
 /turf/simulated/floor/wood/walnut,
 /area/crew_quarters/cafe)
 "mrs" = (
-/obj/machinery/cryopod,
 /obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/structure/broken_cryo{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -37016,12 +37006,14 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/crew_quarters/sleep/cryo)
 "mOa" = (
-/obj/machinery/cryopod,
 /obj/random/date_based/christmas/xmaslights,
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
 	},
 /obj/effect/floor_decal/techfloor/corner,
+/obj/structure/broken_cryo{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
 "mOS" = (
@@ -37030,9 +37022,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 6
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
@@ -37162,9 +37151,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/maintenance/seconddeck/aftstarboard)
 "nhH" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/random/date_based/christmas/xmaslights{
 	dir = 1;
 	pixel_y = 24
@@ -37177,6 +37163,9 @@
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 1
+	},
+/obj/structure/broken_cryo{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
@@ -37314,15 +37303,15 @@
 /turf/simulated/wall/prepainted,
 /area/crew_quarters/head_big)
 "ocI" = (
-/obj/machinery/cryopod{
-	dir = 4
-	},
 /obj/random/date_based/christmas/xmaslights,
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 8
+	},
+/obj/structure/broken_cryo{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
@@ -37420,9 +37409,6 @@
 	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/machinery/light/small{
 	dir = 1
@@ -37889,7 +37875,6 @@
 /turf/simulated/floor/tiled,
 /area/hallway/primary/seconddeck/fore)
 "pHC" = (
-/obj/machinery/cryopod,
 /obj/random/date_based/christmas/xmaslights{
 	dir = 1;
 	pixel_y = 24
@@ -37899,6 +37884,9 @@
 	},
 /obj/effect/floor_decal/techfloor/corner{
 	dir = 4
+	},
+/obj/structure/broken_cryo{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/crew_quarters/sleep/cryo)
@@ -37974,9 +37962,6 @@
 /area/crew_quarters/sleep/bunk_big)
 "pPH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/landmark{
-	name = "JoinLateCryo"
-	},
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
@@ -38039,9 +38024,6 @@
 "pYL" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/machinery/light/small,
 /obj/effect/floor_decal/techfloor/orange{
@@ -40553,9 +40535,6 @@
 "xiV" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 1
-	},
-/obj/effect/landmark{
-	name = "JoinLateCryo"
 	},
 /obj/machinery/light/small,
 /obj/effect/floor_decal/techfloor/orange{

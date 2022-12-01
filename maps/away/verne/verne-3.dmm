@@ -3586,18 +3586,6 @@
 /turf/simulated/floor/carpet/green,
 /area/verne/engineering/decktransfer/up)
 "AM" = (
-/obj/structure/safe,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/spacecash/bundle/c1000,
-/obj/item/card/id/verne,
 /obj/machinery/button/alternate/door/bolts{
 	dir = 4;
 	id_tag = "vernesecure";
@@ -3605,14 +3593,19 @@
 	pixel_x = -24;
 	pixel_y = 7
 	},
-/obj/item/rig/hazard/equipped,
-/obj/random/documents,
 /obj/machinery/button/alternate/door/bolts{
 	dir = 4;
 	id_tag = "vernepremium";
 	name = "Student's reward mechanism";
 	pixel_x = -24;
 	pixel_y = -5
+	},
+/obj/structure/table/woodentable,
+/obj/item/storage/box/large/coal,
+/obj/item/hookah,
+/obj/item/storage/secure/safe/verne{
+	pixel_x = 10;
+	pixel_y = -24
 	},
 /turf/simulated/floor/carpet/blue2,
 /area/verne/common/professor)
