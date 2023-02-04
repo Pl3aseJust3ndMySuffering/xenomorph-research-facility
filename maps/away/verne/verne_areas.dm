@@ -17,7 +17,7 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/verne/engineering/powergen
-	name = "\improper Verne Power Generation"
+	name = "\improper Verne Solars"
 	icon_state = "engineeringt"
 
 /area/verne/engineering/storage
@@ -29,7 +29,7 @@
 	icon_state = "engineeringt"
 
 /area/verne/engineering/decktransfer
-	name = "\improper Verne Lower Utilities Transfer"
+	name = "\improper Verne Cargo Hold"
 	icon_state = "engineeringatmos"
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
@@ -55,19 +55,19 @@
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/verne/engineering/smresearch
-	name = "\improper Verne Supermatter Research"
+	name = "\improper Verne R-UST Research"
 	icon_state = "smresearch"
 
 /area/verne/engineering/smresearch/control
-	name = "\improper Verne Supermatter Control"
+	name = "\improper Verne R-UST Control"
 	icon_state = "smresearch"
 
 /area/verne/engineering/smresearch/access
-	name = "\improper Verne Supermatter Upper Access"
+	name = "\improper Verne R-UST Upper Access"
 	icon_state = "smresearch2"
 
 /area/verne/engineering/smresearch/access/lower
-	name = "\improper Verne Supermatter Lower Access"
+	name = "\improper Verne R-UST Lower Access"
 	icon_state = "smresearch2"
 
 /area/verne/engineering/workshop
@@ -208,6 +208,6 @@ area/verne/common/kitchen/fridge
 	area_flags = AREA_FLAG_RAD_SHIELDED | AREA_FLAG_ION_SHIELDED
 
 /area/verne/lift
-	name = "\improper Verne Supermatter Research Lift"
+	name = "\improper Verne R-UST Research Lift"
 	icon_state = "state1"
 	requires_power = 0

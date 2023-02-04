@@ -42,9 +42,10 @@
 	id = "awaysite_verne"
 	description = "Active CTI research ship"
 	suffixes = list("verne/verne-1.dmm", "verne/verne-2.dmm", "verne/verne-3.dmm")
-	spawn_cost = 2
-	player_cost = 4
+	spawn_cost = 0
+	player_cost = 0
 	spawn_weight = 0.33
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	area_usage_test_exempted_root_areas = list(/area/verne)
 	shuttles_to_initialise = list(
 		/datum/shuttle/autodock/overmap/verne,
@@ -75,7 +76,7 @@
 
 /obj/item/card/id/verne
 	access = list(access_verne)
-	
+
 /obj/item/card/id/verne/pilot
 	access = list(access_verne, access_verne_pilot)
 
@@ -130,7 +131,7 @@
 
 /obj/structure/closet/crate/secure/large/phoron/experimentalsm/WillContain()
 	return list(/obj/machinery/power/supermatter/randomsample)
-	
+
 /obj/item/storage/secure/safe/verne
 	name = "professors safe"
 

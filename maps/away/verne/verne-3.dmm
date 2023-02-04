@@ -194,14 +194,10 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/common/cryo)
 "aA" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/paleblue/full,
-/obj/machinery/light_switch{
-	pixel_y = 22
+/obj/machinery/bodyscanner{
+	dir = 1
 	},
-/obj/effect/submap_landmark/spawnpoint/CTI_medic,
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
 "aH" = (
@@ -332,7 +328,7 @@
 	dir = 8;
 	pixel_x = 24
 	},
-/obj/structure/flora/pottedplant/thinbush,
+/obj/structure/holoplant,
 /turf/simulated/floor/carpet/blue2,
 /area/verne/common)
 "bq" = (
@@ -501,12 +497,10 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "cc" = (
-/obj/machinery/sleeper{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/paleblue/mono,
-/obj/structure/closet/hydrant{
-	pixel_x = -32
+/obj/machinery/atmospherics/unary/cryo_cell,
+/obj/effect/floor_decal/industrial/firstaid/cee{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
@@ -521,8 +515,12 @@
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "cl" = (
-/turf/simulated/floor/reinforced/airless,
-/area/space)
+/obj/effect/floor_decal/corner/b_green{
+	dir = 9
+	},
+/obj/item/caution,
+/turf/simulated/floor/tiled,
+/area/verne/stairs)
 "co" = (
 /obj/structure/table/standard,
 /obj/item/material/hatchet,
@@ -560,6 +558,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/three)
 "cu" = (
@@ -660,6 +661,23 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/door/firedoor,
+/obj/item/reagent_containers/glass/bottle/kelotane,
+/obj/item/reagent_containers/glass/bottle/kelotane,
+/obj/item/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/reagent_containers/glass/bottle/inaprovaline,
+/obj/item/reagent_containers/glass/bottle/dexalin,
+/obj/item/reagent_containers/glass/bottle/dexalin,
+/obj/item/reagent_containers/glass/bottle/antitoxin,
+/obj/item/reagent_containers/glass/bottle/antitoxin,
+/obj/item/reagent_containers/glass/bottle/tericadone,
+/obj/item/reagent_containers/glass/bottle/tramadol,
+/obj/item/reagent_containers/glass/bottle/tramadol,
+/obj/item/reagent_containers/glass/bottle/peridaxon,
+/obj/item/reagent_containers/glass/bottle/bicaridine,
+/obj/item/reagent_containers/glass/bottle/bicaridine,
+/obj/item/reagent_containers/glass/bottle/adrenaline,
+/obj/item/reagent_containers/glass/bottle/adrenaline,
+/obj/item/reagent_containers/glass/bottle/alkysine,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical/chem)
 "db" = (
@@ -940,6 +958,15 @@
 /obj/structure/bed/chair/padded/lime,
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
+"eT" = (
+/obj/effect/floor_decal/corner/b_green{
+	dir = 9
+	},
+/obj/structure/closet/medical_wall/filled{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled,
+/area/verne/stairs)
 "eY" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -968,6 +995,7 @@
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 4
 	},
+/obj/item/paper_bin,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "fh" = (
@@ -1008,6 +1036,10 @@
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/b_green/mono,
 /obj/item/storage/box/glasses/pint,
+/obj/item/device/radio/intercom/map_preset/verne{
+	dir = 4;
+	pixel_x = -22
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating)
 "fv" = (
@@ -1020,12 +1052,26 @@
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/hallway)
 "fw" = (
-/obj/structure/closet/medical_wall/filled{
-	pixel_y = 32
-	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 5
 	},
+/obj/random/firstaid{
+	pixel_x = 8;
+	pixel_y = 8
+	},
+/obj/random/firstaid{
+	pixel_x = -8;
+	pixel_y = 8
+	},
+/obj/random/firstaid{
+	pixel_x = -8;
+	pixel_y = -8
+	},
+/obj/random/firstaid{
+	pixel_x = 8;
+	pixel_y = -8
+	},
+/obj/structure/table/standard,
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
 "fB" = (
@@ -1061,11 +1107,6 @@
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
 	id = "professor_space"
-	},
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
 	},
 /turf/simulated/floor/plating,
 /area/verne/common/professor)
@@ -1103,12 +1144,6 @@
 /obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/kitchen/access)
-"gw" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/b_green/mono,
-/obj/item/trash/cigbutt/lollibutt,
-/turf/simulated/floor/tiled/monotile,
-/area/verne/common/messseating)
 "gz" = (
 /obj/effect/floor_decal/corner/b_green{
 	dir = 6
@@ -1120,12 +1155,8 @@
 /area/verne/common/hallway)
 "gB" = (
 /obj/structure/table/woodentable,
-/obj/item/device/flashlight/lamp/lava,
 /obj/machinery/light{
 	dir = 4
-	},
-/obj/machinery/vending/cola/small{
-	pixel_y = 28
 	},
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
@@ -1160,38 +1191,34 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/random/junk,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
 "gL" = (
-/obj/structure/table/standard,
-/obj/random/firstaid,
-/obj/random/firstaid,
-/obj/machinery/power/apc/verne{
-	dir = 8;
-	pixel_x = -24
-	},
-/obj/structure/cable{
-	d2 = 4;
-	icon_state = "0-4"
-	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 1;
 	pixel_y = -28
 	},
+/obj/machinery/portable_atmospherics/canister/oxygen/prechilled,
+/obj/machinery/alarm/verne{
+	dir = 4;
+	pixel_x = -24
+	},
+/obj/machinery/atmospherics/portables_connector{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/outline,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "ha" = (
 /obj/random/snack,
 /obj/effect/floor_decal/corner/b_green/mono,
 /obj/structure/table/standard,
-/obj/machinery/button/blast_door{
-	dir = 8;
-	id_tag = "verneblast";
-	name = "Verne Window Blast doors";
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/bridge)
 "hd" = (
@@ -1214,11 +1241,6 @@
 "hu" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common/kitchen/access)
 "hz" = (
@@ -1315,11 +1337,6 @@
 "hL" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common/room/seven)
 "hP" = (
@@ -1403,6 +1420,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/five)
 "il" = (
@@ -1422,12 +1442,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/verne/stairs)
-"im" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/b_green/mono,
-/obj/item/newspaper,
-/turf/simulated/floor/tiled/monotile,
-/area/verne/common/messseating)
 "ip" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -1452,6 +1466,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/three)
 "iu" = (
@@ -1580,29 +1597,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/verne/medical/storage)
-"jN" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/floor_decal/corner/b_green{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/messseating)
 "jP" = (
-/obj/machinery/body_scanconsole{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/paleblue/full,
+/obj/structure/bed/roller,
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
 "jR" = (
@@ -1619,6 +1616,8 @@
 /obj/random/smokes{
 	pixel_x = -4
 	},
+/obj/item/clothing/shoes/magboots,
+/obj/item/tank/air,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/bridge)
 "jU" = (
@@ -1631,13 +1630,8 @@
 /turf/simulated/floor/tiled/steel_ridged,
 /area/verne/common/hallway)
 "jY" = (
-/obj/machinery/power/apc/verne{
-	dir = 1;
-	pixel_y = 24
-	},
-/obj/structure/cable{
-	d2 = 8;
-	icon_state = "0-8"
+/obj/machinery/vending/cigarette/small{
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
@@ -1661,16 +1655,6 @@
 /obj/effect/floor_decal/corner/b_green/full,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/two)
-"kz" = (
-/obj/machinery/door/firedoor,
-/obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
-/turf/simulated/floor/plating,
-/area/verne/bridge)
 "kA" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -1735,8 +1719,8 @@
 	dir = 4
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
-/obj/item/device/radio/intercom/map_preset/verne{
-	pixel_y = 24
+/obj/machinery/vending/coffee/small{
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
@@ -1776,6 +1760,15 @@
 /obj/machinery/cooker/candy,
 /turf/simulated/floor/tiled/freezer,
 /area/verne/common/kitchen)
+"lz" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 9
+	},
+/turf/simulated/floor/tiled/white,
+/area/verne/medical)
 "lE" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1866,6 +1859,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
@@ -2154,21 +2152,6 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/closet/secure_closet{
-	req_access = list("ACCESS_VERNE_PROFESSOR")
-	},
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/random/drinkbottle,
-/obj/item/reagent_containers/chem_disp_cartridge/ethanol,
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "pn" = (
@@ -2212,11 +2195,6 @@
 	},
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/bridge)
 "pD" = (
@@ -2233,12 +2211,11 @@
 	d2 = 8;
 	icon_state = "0-8"
 	},
-/obj/structure/table/standard,
-/obj/structure/flora/pottedplant/deskfern,
 /obj/machinery/alarm/verne{
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/bridge)
 "pX" = (
@@ -2261,14 +2238,6 @@
 /obj/machinery/chem_master/condimaster,
 /turf/simulated/floor/tiled/freezer,
 /area/verne/common/kitchen/fridge)
-"qj" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/turf/simulated/floor/tiled,
-/area/verne/common/messseating)
 "qn" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -2392,6 +2361,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/four)
 "rb" = (
@@ -2422,9 +2394,9 @@
 /area/verne/common/head)
 "rg" = (
 /obj/structure/table/standard,
-/obj/item/pizzabox/margherita,
 /obj/effect/floor_decal/corner/b_green/mono,
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/item/paper_bin,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating/small)
 "rh" = (
@@ -2436,11 +2408,6 @@
 "ri" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/bridge)
 "ry" = (
@@ -2509,12 +2476,6 @@
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall,
 /area/verne/common/kitchen/access)
-"su" = (
-/obj/structure/table/standard,
-/obj/effect/floor_decal/corner/b_green/mono,
-/obj/random/junk,
-/turf/simulated/floor/tiled/monotile,
-/area/verne/common/messseating)
 "sx" = (
 /obj/effect/floor_decal/floordetail/edgedrain{
 	dir = 10;
@@ -2592,11 +2553,6 @@
 /area/verne/common/cryo)
 "sO" = (
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/bridge)
 "sS" = (
@@ -2691,7 +2647,6 @@
 "ty" = (
 /obj/item/reagent_containers/chem_disp_cartridge/acetone,
 /obj/item/reagent_containers/chem_disp_cartridge/copper,
-/obj/item/reagent_containers/chem_disp_cartridge/imidazoline,
 /obj/structure/table/rack,
 /obj/item/reagent_containers/syringe/antitoxin,
 /obj/item/reagent_containers/glass/beaker/bluespace,
@@ -2764,11 +2719,6 @@
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/polarized{
 	id = "six_space"
-	},
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
 	},
 /turf/simulated/floor/plating,
 /area/verne/common/room/six)
@@ -2871,6 +2821,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room)
 "uP" = (
@@ -3035,11 +2988,6 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
@@ -3155,12 +3103,25 @@
 /turf/simulated/wall,
 /area/verne/common/room/seven)
 "xo" = (
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/machinery/porta_turret{
-	req_access = list("ACCESS_VERNE")
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/bridge)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/effect/floor_decal/corner/b_green{
+	dir = 9
+	},
+/obj/machinery/button/alternate/door/bolts{
+	dir = 4;
+	id_tag = "vernepremium";
+	name = "Student's reward mechanism";
+	pixel_x = -24;
+	pixel_y = -5
+	},
+/turf/simulated/floor/tiled,
+/area/verne/common/hallway)
 "xp" = (
 /obj/effect/floor_decal/spline/fancy/wood{
 	dir = 1
@@ -3171,7 +3132,7 @@
 	id = "professor_space2";
 	pixel_x = -22
 	},
-/obj/item/toy/icarus_model,
+/obj/item/device/flashlight/lamp/lava,
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "xs" = (
@@ -3279,8 +3240,8 @@
 	dir = 2;
 	pixel_y = 24
 	},
-/obj/structure/flora/pottedplant/fern,
 /obj/effect/floor_decal/corner/b_green/mono,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/stairs)
 "ym" = (
@@ -3325,14 +3286,23 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical/chem)
 "yx" = (
-/obj/structure/table/standard,
-/obj/random/firstaid,
-/obj/random/firstaid,
-/obj/machinery/alarm/verne{
-	dir = 4;
+/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/apc/verne{
+	dir = 8;
 	pixel_x = -24
 	},
-/obj/effect/floor_decal/corner/paleblue/mono,
+/obj/machinery/atmospherics/binary/passive_gate/on{
+	dir = 1
+	},
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/beaker/cryoxadone,
+/obj/item/bodybag/cryobag{
+	pixel_x = 8
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "yK" = (
@@ -3399,11 +3369,6 @@
 /area/verne/medical/surgery)
 "yW" = (
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common)
 "zd" = (
@@ -3450,7 +3415,8 @@
 	dir = 1
 	},
 /obj/machinery/light/small,
-/obj/item/material/ashtray/bronze,
+/obj/item/hookah,
+/obj/item/storage/box/large/coal,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "zy" = (
@@ -3548,7 +3514,6 @@
 /turf/simulated/floor/tiled,
 /area/verne/stairs)
 "AE" = (
-/obj/item/caution,
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -3601,8 +3566,6 @@
 	pixel_y = -5
 	},
 /obj/structure/table/woodentable,
-/obj/item/storage/box/large/coal,
-/obj/item/hookah,
 /obj/item/storage/secure/safe/verne{
 	pixel_x = 10;
 	pixel_y = -24
@@ -3631,10 +3594,11 @@
 /area/verne/medical/surgery)
 "AX" = (
 /obj/structure/table/standard,
-/obj/item/book/manual/medical_diagnostics_manual,
 /obj/random/medical,
 /obj/random/medical,
 /obj/effect/floor_decal/corner/paleblue/mono,
+/obj/item/bodybag/cryobag,
+/obj/item/bodybag/cryobag,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical/storage)
 "AY" = (
@@ -3808,6 +3772,7 @@
 	pixel_y = -32
 	},
 /obj/machinery/light,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
 "Cv" = (
@@ -3826,7 +3791,6 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/item/trash/raisins,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating)
 "CG" = (
@@ -3954,11 +3918,11 @@
 	dir = 2;
 	pixel_y = 24
 	},
-/obj/structure/flora/pottedplant/fern,
 /obj/machinery/light_switch{
 	dir = 4;
 	pixel_x = -22
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "DI" = (
@@ -4009,6 +3973,14 @@
 /obj/structure/table/standard,
 /obj/effect/floor_decal/corner/b_green/mono,
 /obj/item/storage/box/cola/beastenergy,
+/obj/machinery/power/apc/verne{
+	dir = 8;
+	pixel_x = -24
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating)
 "Ee" = (
@@ -4023,13 +3995,9 @@
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating/small)
 "Eq" = (
-/obj/structure/table/standard,
-/obj/machinery/door/window/eastleft,
-/obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/door/firedoor,
-/obj/item/clothing/mask/chewable/candy/lolli/meds,
-/obj/random/medical/lite,
-/turf/simulated/floor/tiled/white/monotile,
+/obj/effect/wallframe_spawn/reinforced/hull/verne,
+/turf/simulated/floor/plating,
 /area/verne/medical)
 "EO" = (
 /obj/effect/floor_decal/corner/b_green/full,
@@ -4040,13 +4008,11 @@
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating/small)
 "EY" = (
-/obj/machinery/bodyscanner{
-	dir = 4
-	},
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/sleeper,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "EZ" = (
@@ -4113,6 +4079,17 @@
 /obj/random/soap,
 /turf/simulated/floor/tiled/white,
 /area/verne/common/head)
+"Fw" = (
+/obj/effect/floor_decal/corner/paleblue{
+	dir = 9
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/white,
+/area/verne/medical)
 "FA" = (
 /obj/effect/floor_decal/cti,
 /obj/structure/cable{
@@ -4231,6 +4208,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room)
 "GK" = (
@@ -4247,6 +4227,12 @@
 "GP" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
+	},
+/obj/machinery/atmospherics/unary/freezer{
+	icon_state = "freezer"
+	},
+/obj/effect/floor_decal/industrial/firstaid/cee{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
@@ -4308,7 +4294,6 @@
 "Ht" = (
 /obj/structure/table/standard,
 /obj/machinery/door/window/northleft,
-/obj/item/reagent_containers/glass/bottle/tericadone,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/monotile,
@@ -4450,12 +4435,6 @@
 "Is" = (
 /turf/simulated/floor/tiled/white,
 /area/verne/common/head)
-"Iv" = (
-/obj/structure/table/standard,
-/obj/random/advdevice,
-/obj/effect/floor_decal/corner/b_green/mono,
-/turf/simulated/floor/tiled/monotile,
-/area/verne/common/messseating)
 "IN" = (
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
@@ -4561,7 +4540,7 @@
 	dir = 4
 	},
 /obj/structure/displaycase,
-/obj/item/organ/internal/gland/hunger,
+/obj/item/toy/torchmodel,
 /turf/simulated/floor/carpet/blue3,
 /area/verne/common/professor)
 "Jp" = (
@@ -4788,6 +4767,9 @@
 /area/verne/common/hallway)
 "Lm" = (
 /obj/effect/floor_decal/corner/paleblue/full,
+/obj/machinery/body_scanconsole{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/white,
 /area/verne/medical)
 "Lq" = (
@@ -4899,13 +4881,18 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/button/alternate/door/bolts{
+	id_tag = "vernesecure";
+	name = "Secure Holding Door Bolts";
+	pixel_y = 22
+	},
 /turf/simulated/floor/tiled/white,
 /area/verne/bridge/access)
 "Mb" = (
 /obj/machinery/alarm/verne{
 	pixel_y = 24
 	},
-/obj/skeleton,
+/obj/structure/table/woodentable,
 /turf/simulated/floor/wood,
 /area/verne/common/professor)
 "Md" = (
@@ -4980,27 +4967,23 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/common/cryo)
 "Nf" = (
-/obj/structure/table/standard,
-/obj/item/bodybag/cryobag,
 /obj/effect/floor_decal/corner/paleblue/mono,
 /obj/machinery/light{
 	dir = 8
 	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 8
+	},
+/obj/machinery/meter,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "Nh" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
+/obj/machinery/vending/cola/small{
+	pixel_y = 28
 	},
 /turf/simulated/floor/tiled,
 /area/verne/common/messseating)
@@ -5090,6 +5073,7 @@
 /obj/machinery/light{
 	dir = 4
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/verne/common/hallway)
 "Op" = (
@@ -5157,13 +5141,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/verne/bridge/access)
-"OW" = (
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/machinery/porta_turret{
-	req_access = list("ACCESS_VERNE")
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Pc" = (
 /obj/structure/closet/wardrobe,
 /obj/random/clothing,
@@ -5177,6 +5154,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/five)
 "Pf" = (
@@ -5250,6 +5230,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/two)
 "Qa" = (
@@ -5347,6 +5330,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/four)
 "QO" = (
@@ -5537,11 +5523,6 @@
 "Ru" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common/messseating/small)
 "Rv" = (
@@ -5836,10 +5817,15 @@
 "UH" = (
 /obj/structure/bed/roller,
 /obj/effect/floor_decal/corner/paleblue/mono,
+/obj/effect/submap_landmark/spawnpoint/CTI_medic,
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 22
+	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/medical)
 "UK" = (
-/obj/machinery/computer/modular/preset/filemanager{
+/obj/machinery/computer/modular/preset/civilian/professional{
 	dir = 4
 	},
 /turf/simulated/floor/wood/bamboo,
@@ -5931,11 +5917,6 @@
 "Vk" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common/messseating)
 "Vw" = (
@@ -5998,11 +5979,6 @@
 "VT" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/common/kitchen)
 "VY" = (
@@ -6201,6 +6177,9 @@
 	},
 /obj/effect/floor_decal/corner/b_green/full,
 /obj/item/device/radio/headset/map_preset/verne,
+/obj/random/cash,
+/obj/random/cash,
+/obj/random/cash,
 /turf/simulated/floor/tiled,
 /area/verne/common/room/two)
 "XS" = (
@@ -6257,6 +6236,10 @@
 	dir = 4;
 	pixel_x = -22
 	},
+/obj/machinery/firealarm{
+	dir = 2;
+	pixel_y = 24
+	},
 /turf/simulated/floor/tiled/monotile,
 /area/verne/common/messseating)
 "Yk" = (
@@ -6306,6 +6289,7 @@
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/wood/bamboo,
 /area/verne/common/room/six)
 "YC" = (
@@ -6330,10 +6314,6 @@
 	},
 /obj/structure/closet/crate/trashcart,
 /obj/random/maintenance/clean,
-/obj/machinery/turretid/verne{
-	dir = 4;
-	pixel_x = -26
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/bridge)
 "YP" = (
@@ -12601,7 +12581,7 @@ oy
 Up
 jI
 jI
-OW
+jI
 jI
 jI
 Au
@@ -13084,8 +13064,8 @@ Bl
 BC
 VS
 GP
-GP
-GP
+lz
+Fw
 wz
 uq
 jM
@@ -13097,14 +13077,14 @@ RT
 RT
 oy
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -13248,16 +13228,16 @@ NF
 RT
 RT
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -13336,7 +13316,7 @@ HQ
 vE
 oy
 Up
-kz
+ri
 pB
 gg
 gg
@@ -13400,16 +13380,16 @@ JA
 Pk
 Pk
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -13486,9 +13466,9 @@ oy
 oy
 HQ
 vE
-xo
+Zs
 ri
-kz
+ri
 vm
 RP
 YK
@@ -13552,16 +13532,16 @@ ys
 Pk
 Pk
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -13705,14 +13685,14 @@ Pk
 Pk
 oy
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -13839,7 +13819,7 @@ Ua
 Nu
 Vx
 Ui
-kt
+cl
 kt
 PG
 Sy
@@ -13966,7 +13946,7 @@ DV
 Ja
 ps
 Rv
-Ja
+xo
 ps
 vW
 uF
@@ -14147,7 +14127,7 @@ as
 Wi
 ko
 ko
-kt
+eT
 kt
 kt
 oc
@@ -14284,7 +14264,7 @@ eI
 Bu
 bz
 ZS
-jN
+ip
 gG
 ip
 ip
@@ -14313,14 +14293,14 @@ Fd
 Fd
 oy
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -14398,9 +14378,9 @@ oy
 oy
 HQ
 vE
-xo
+Zs
 ri
-kz
+ri
 qn
 ha
 pP
@@ -14436,7 +14416,7 @@ yc
 ca
 TL
 oh
-qj
+IN
 tG
 vq
 vq
@@ -14464,16 +14444,16 @@ dy
 Fd
 Fd
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -14552,8 +14532,8 @@ HQ
 vE
 oy
 Up
-kz
-kz
+ri
+ri
 gg
 gg
 gg
@@ -14590,11 +14570,11 @@ Kl
 nf
 Nh
 Ul
-gw
+oN
 YP
 XS
 mp
-su
+oN
 aP
 Fk
 Wz
@@ -14616,16 +14596,16 @@ dA
 Fd
 Fd
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -14746,7 +14726,7 @@ oN
 ey
 zI
 mp
-im
+oN
 Bh
 Cs
 Wz
@@ -14768,16 +14748,16 @@ dB
 Fd
 Fd
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -14894,7 +14874,7 @@ Mp
 nf
 lf
 zn
-Iv
+oN
 YP
 QC
 mp
@@ -14921,14 +14901,14 @@ Fd
 Fd
 oy
 oy
-cl
-cl
-cl
-cl
-cl
-cl
-cl
-cl
+oy
+oy
+oy
+oy
+oy
+oy
+oy
+oy
 oy
 oy
 oy
@@ -15337,7 +15317,7 @@ oy
 oy
 jI
 jI
-OW
+jI
 jI
 jI
 Au

@@ -20,7 +20,10 @@
 		SKILL_BUREAUCRACY = SKILL_ADEPT,
 		)
 
-	max_skill = list()
+	max_skill = list(
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX,
+	)
 	skill_points = 16
 
 	economic_power = 4
@@ -46,6 +49,8 @@
 	max_skill = list(
 		SKILL_PILOT   = SKILL_MAX,
 		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX
 	)
 	skill_points = 20//skills copied from Torch pilot + gun
 
@@ -69,7 +74,10 @@
 
 	max_skill = list(
 		SKILL_MEDICAL	=	SKILL_MAX,
-		SKILL_VIROLOGY	=	SKILL_MAX
+		SKILL_VIROLOGY	=	SKILL_MAX,
+		SKILL_ANATOMY = SKILL_MAX,
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX
 	)
 	skill_points = 20
 	alt_titles = list("CTI Chemist" = /decl/hierarchy/outfit/job/verne/medic/chemist)
@@ -91,6 +99,8 @@
 		SKILL_MEDICAL = SKILL_BASIC
 	)
 	max_skill = list(
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX,
 		SKILL_MEDICAL = SKILL_MAX
 	)
 
@@ -122,6 +132,8 @@
 
 	max_skill = list(
 		SKILL_CONSTRUCTION = SKILL_MAX,
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX,
 		SKILL_ELECTRICAL   = SKILL_MAX,
 		SKILL_ATMOS        = SKILL_MAX,
 		SKILL_ENGINES      = SKILL_MAX,
@@ -149,6 +161,8 @@
 		SKILL_ANATOMY = SKILL_MAX,
 		SKILL_DEVICES = SKILL_MAX,
 		SKILL_SCIENCE = SKILL_MAX,
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX,
 	)
 	skill_points = 20//skills copied from Torch sci
 
@@ -195,6 +209,8 @@
 	max_skill = list(
 		SKILL_ANATOMY = SKILL_MAX,
 		SKILL_DEVICES = SKILL_MAX,
+		SKILL_COMBAT      = SKILL_MAX,
+		SKILL_WEAPONS     = SKILL_MAX,
 		SKILL_SCIENCE = SKILL_MAX,
 	)
 	skill_points = 20//skills copied from Torch sci
