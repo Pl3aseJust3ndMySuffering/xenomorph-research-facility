@@ -1,35 +1,91 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "ab" = (
-/obj/machinery/atmospherics/unary/freezer{
-	dir = 8;
-	icon_state = "freezer";
-	use_power = 1
-	},
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 6
 	},
-/obj/machinery/light/spot{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ac" = (
-/obj/machinery/portable_atmospherics/canister/sleeping_agent,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/obj/structure/largecrate,
+/obj/random/powercell,
+/obj/random/powercell,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/loot,
+/obj/random/drinkbottle,
+/obj/random/drinkbottle,
+/obj/item/flame/lighter/zippo/random,
+/obj/random/hardsuit,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "af" = (
 /obj/structure/closet/hydrant{
 	pixel_x = 32
 	},
 /obj/effect/floor_decal/techfloor/orange{
-	dir = 5
+	dir = 4
 	},
+/obj/structure/largecrate{
+	name = "experimental samples"
+	},
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/item/random_gland,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/random/contraband,
+/obj/item/reagent_containers/glass/beaker/vial/exp,
+/obj/item/reagent_containers/glass/beaker/vial/exp,
+/obj/item/reagent_containers/glass/beaker/vial/exp,
+/obj/item/reagent_containers/glass/beaker/vial/exp,
+/obj/item/reagent_containers/glass/beaker/vial/exp,
+/obj/item/reagent_containers/glass/beaker/vial/away,
+/obj/item/reagent_containers/glass/beaker/vial/away,
+/obj/item/reagent_containers/glass/beaker/vial/away,
+/obj/item/reagent_containers/glass/beaker/vial/away,
+/obj/item/reagent_containers/glass/beaker/vial/away,
+/obj/item/reagent_containers/glass/beaker/vial/random_podchem,
+/obj/item/reagent_containers/glass/beaker/vial/random_podchem,
+/obj/item/reagent_containers/glass/beaker/vial/random_podchem,
+/obj/item/reagent_containers/glass/beaker/vial/random_podchem,
+/obj/item/reagent_containers/glass/beaker/vial/random_podchem,
+/obj/item/storage/box/monkeycubes/spidercubes,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "ah" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 8
@@ -39,12 +95,11 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
-	dir = 8
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light{
 	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
@@ -58,10 +113,12 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/light_switch{
 	dir = 4;
 	pixel_x = -22
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
@@ -87,7 +144,7 @@
 	icon_state = "1-4"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "am" = (
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/industrial/hatch/yellow,
@@ -129,22 +186,25 @@
 	},
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "aw" = (
-/obj/machinery/portable_atmospherics/canister/methyl_bromide,
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
-"aD" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 4
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/machinery/portable_atmospherics/powered/scrubber/broken,
+/obj/effect/floor_decal/techfloor/orange/corner,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
+"aD" = (
 /obj/machinery/firealarm{
 	dir = 2;
 	pixel_y = 24
 	},
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "aF" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -182,7 +242,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "aR" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 1
@@ -193,16 +253,6 @@
 /obj/item/stool/padded,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/workshop)
-"aT" = (
-/obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Door"
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/smresearch/control)
 "aU" = (
 /obj/machinery/door/firedoor,
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
@@ -210,28 +260,16 @@
 /area/verne/xenosci/equipment)
 "aV" = (
 /obj/structure/table/steel,
+/obj/item/device/integrated_circuit_printer/upgraded,
+/obj/item/disk/integrated_circuit/upgrade/advanced,
+/obj/item/disk/integrated_circuit/upgrade/clone,
+/obj/item/device/integrated_electronics/wirer,
+/obj/item/device/integrated_electronics/detailer,
+/obj/item/device/integrated_electronics/debugger,
+/obj/item/device/integrated_electronics/analyzer,
 /obj/structure/window/reinforced,
-/obj/item/device/bot_kit,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
-"aX" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/valve/shutoff/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/valve/shutoff/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "aZ" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
@@ -312,17 +350,11 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "br" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 4
 	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/closet/emcloset,
-/turf/simulated/floor/plating,
+/obj/machinery/mining/brace,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "bt" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -347,14 +379,14 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/xenosci)
 "bz" = (
-/obj/effect/wallframe_spawn/reinforced/hull/verne,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/turf/simulated/floor/plating,
-/area/verne/hangar)
+/obj/effect/floor_decal/techfloor/orange,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "bA" = (
 /obj/structure/table/standard,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -365,19 +397,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
-"bC" = (
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for the engine charging port.";
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Doors";
-	pixel_x = -24
-	},
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "bE" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 4
@@ -488,13 +507,25 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "bT" = (
-/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/structure/largecrate{
+	name = "medical supplies"
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/obj/random/firstaid,
+/obj/random/firstaid,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical,
+/obj/random/medical/lite,
+/obj/random/medical/lite,
+/obj/random/medical/lite,
+/obj/random/medical/lite,
+/obj/random/medical/lite,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "bY" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/suit_storage_unit/ceti/verne,
@@ -518,13 +549,33 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/equipment)
 "ce" = (
-/obj/machinery/portable_atmospherics/canister/hydrogen/engine_setup,
-/obj/machinery/light{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/obj/structure/largecrate{
+	name = "rations crate"
+	},
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/obj/random/mre,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "ch" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -616,21 +667,9 @@
 /obj/item/stack/material/aluminium/fifty,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
-"cx" = (
-/obj/machinery/atmospherics/unary/vent_pump/engine{
-	dir = 1;
-	external_pressure_bound = 100;
-	external_pressure_bound_default = 0;
-	icon_state = "map_vent_in";
-	id_tag = "cooling_out_verne_top";
-	initialize_directions = 1;
-	pump_direction = 0
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/smresearch/control)
 "cA" = (
 /obj/effect/floor_decal/corner/b_green/diagonal,
-/obj/structure/flora/pottedplant/fern,
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/workshop)
 "cB" = (
@@ -925,17 +964,6 @@
 	d2 = 2;
 	icon_state = "0-2"
 	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
 /obj/structure/closet/hydrant{
 	pixel_x = -32
 	},
@@ -1003,6 +1031,9 @@
 	id_tag = "verneblast";
 	name = "Verne Protective Blast Doors"
 	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
 "dC" = (
@@ -1015,6 +1046,9 @@
 	id_tag = "verneblast";
 	name = "Verne Protective Blast Doors"
 	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
 "dF" = (
@@ -1026,6 +1060,9 @@
 	dir = 2;
 	id_tag = "verneblast";
 	name = "Verne Protective Blast Doors"
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
 	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
@@ -1048,29 +1085,31 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 5
 	},
-/obj/machinery/button/mass_driver{
-	desc = "A switch used to remotely eject the engine core into space. The vent must be opened to eject the core, otherwise it will explode while still in the ship, causing monumental damage. Only press if core is about to explode.";
-	id_tag = "enginecoreverne";
-	name = "Emergency Core Eject";
-	pixel_x = 24
+/obj/machinery/button/blast_door{
+	desc = "A remote control-switch for the prototype exhaust.";
+	id_tag = "prototype_exhaust";
+	name = "Chamber Exhaust";
+	pixel_x = -11;
+	pixel_y = 29
 	},
 /obj/machinery/button/blast_door{
-	desc = "A switch made to open the vent from the core into space. Use to vent all gasses from the engine core.";
-	id_tag = "EngineVentVerne";
-	name = "Emergency Core Vent Control";
-	pixel_x = 24;
-	pixel_y = 9
+	desc = "A remote control-switch for the engine containment doors.";
+	id_tag = "prototype_chamber_blast";
+	name = "Chamber Containment";
+	pixel_x = 0;
+	pixel_y = 29
 	},
 /obj/machinery/button/blast_door{
-	desc = "A switch designed to vent all gasses from the engine room into space. Press it if there is a fire in the engine room.";
-	id_tag = "engineroomventverne";
-	name = "Emergency Engine Room Vents";
-	pixel_x = 24;
-	pixel_y = -9
+	desc = "A remote control-switch for the observation shutters.";
+	id_tag = "fusion_observation";
+	name = "Chamber Observation";
+	pixel_x = 11;
+	pixel_y = 29
 	},
-/obj/machinery/door/window/brigdoor/westright{
-	name = "Specialty Engine Controls"
-	},
+/obj/item/storage/med_pouch/radiation,
+/obj/item/storage/firstaid/toxin,
+/obj/item/device/geiger,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "dU" = (
@@ -1089,10 +1128,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/workshop)
 "dY" = (
-/obj/structure/closet/secure_closet/engineering_welding/bearcat{
-	req_access = newlist()
-	},
-/obj/effect/floor_decal/industrial/outline/yellow,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
@@ -1100,14 +1135,11 @@
 	dir = 2;
 	pixel_y = 24
 	},
+/obj/machinery/r_n_d/circuit_imprinter,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/item/reagent_containers/glass/beaker/sulphuric,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
-"dZ" = (
-/obj/machinery/atmospherics/unary/vent_pump/on{
-	dir = 8
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/smresearch/control)
 "eb" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -1153,13 +1185,11 @@
 /turf/simulated/floor/tiled,
 /area/verne/stairs/two)
 "ep" = (
-/obj/structure/table/steel,
-/obj/random/assembly,
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 8;
 	pixel_x = 20
 	},
-/obj/random/assembly,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "eq" = (
@@ -1288,32 +1318,32 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "fo" = (
-/obj/structure/bed/chair{
-	dir = 4
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 8
 	},
+/obj/structure/table/steel,
+/obj/item/book/manual/rust_engine,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "fr" = (
-/obj/machinery/atmospherics/pipe/zpipe/up/scrubbers,
-/obj/machinery/atmospherics/pipe/zpipe/up/supply,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/obj/machinery/mining/brace,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "fs" = (
-/obj/structure/table/steel,
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/structure/window/reinforced{
-	dir = 1
+/obj/machinery/computer/air_control{
+	dir = 8;
+	input_tag = "rust_injector";
+	name = "R-UST Gas Injection Controls";
+	output_tag = null
 	},
-/obj/item/storage/med_pouch/radiation,
-/obj/item/storage/firstaid/toxin,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
-"fy" = (
-/obj/effect/paint_stripe/gunmetal,
-/turf/simulated/wall/r_wall,
-/area/verne/engineering/storage)
 "fI" = (
 /obj/structure/table/rack{
 	dir = 8
@@ -1362,14 +1392,9 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 4
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
+/obj/machinery/portable_atmospherics/powered/pump/filled,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/comms)
+/area/verne/engineering/decktransfer)
 "ga" = (
 /obj/structure/ladder,
 /obj/effect/catwalk_plated/dark,
@@ -1386,17 +1411,21 @@
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
 "gd" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/ore_box,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/machinery/suspension_gen,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "gg" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 5
 	},
-/obj/structure/closet/firecloset,
 /obj/machinery/recharger/wallcharger{
 	pixel_y = 22
+	},
+/obj/structure/closet/secure_closet/engineering_welding/bearcat{
+	req_access = newlist()
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/workshop)
@@ -1426,15 +1455,11 @@
 	icon_state = "2-8"
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "gH" = (
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "verneblast2";
-	name = "Verne Protective Blast Doors"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/obj/effect/paint_stripe/gunmetal,
+/turf/simulated/wall/ocp_wall,
+/area/verne/engineering/smresearch/control)
 "gK" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -1442,12 +1467,15 @@
 	icon_state = "4-8"
 	},
 /obj/effect/floor_decal/techfloor/orange,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 5
+	},
+/obj/structure/stasis_cage,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "gU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -1460,7 +1488,7 @@
 /obj/effect/floor_decal/techfloor/orange,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "gZ" = (
 /obj/machinery/door/airlock/external/bolted{
 	frequency = 1379;
@@ -1474,15 +1502,13 @@
 	dir = 8;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /obj/machinery/access_button/airlock_exterior{
 	master_tag = "verne_airlock_starboard";
 	pixel_y = -21;
 	req_access = list("ACCESS_VERNE")
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
@@ -1755,6 +1781,7 @@
 /obj/item/robot_parts/robot_component/diagnosis_unit,
 /obj/item/robot_parts/robot_component/camera,
 /obj/item/robot_parts/robot_component/actuator,
+/obj/structure/heavy_vehicle_frame,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/workshop)
 "iU" = (
@@ -1772,15 +1799,15 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "iY" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 4
 	},
-/obj/machinery/telecomms/broadcaster/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/structure/reagent_dispensers/coolanttank,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "iZ" = (
 /obj/structure/cable{
 	d1 = 2;
@@ -1825,11 +1852,6 @@
 "jk" = (
 /obj/effect/wallframe_spawn/reinforced/hull/verne,
 /obj/machinery/door/firedoor,
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "jo" = (
@@ -1873,35 +1895,17 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
-"kg" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "kA" = (
 /obj/machinery/alarm/server{
 	pixel_y = 24;
 	req_access = list("ACCESS_VERNE")
 	},
-/obj/effect/floor_decal/techfloor{
-	dir = 4
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 9
 	},
-/obj/machinery/telecomms/hub/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "kC" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable{
@@ -2116,9 +2120,8 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "mf" = (
-/obj/structure/table/steel,
-/obj/item/disk/integrated_circuit/upgrade/clone,
-/obj/item/disk/integrated_circuit/upgrade/advanced,
+/obj/machinery/r_n_d/destructive_analyzer,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "mk" = (
@@ -2129,18 +2132,14 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci)
 "ml" = (
-/obj/structure/table/rack,
-/obj/effect/floor_decal/industrial/outline/yellow,
-/obj/item/device/integrated_electronics/analyzer,
-/obj/item/device/integrated_electronics/debugger,
-/obj/item/device/integrated_electronics/detailer,
-/obj/item/device/integrated_electronics/wirer,
 /obj/structure/window/reinforced,
 /obj/structure/window/reinforced{
 	dir = 8
 	},
-/obj/item/storage/toolbox/mechanical,
-/obj/item/storage/toolbox/electrical,
+/obj/effect/floor_decal/industrial/outline/yellow,
+/obj/machinery/computer/rdconsole/core{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "mq" = (
@@ -2189,18 +2188,25 @@
 /turf/simulated/wall/r_wall,
 /area/verne/xenosci)
 "mE" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/anomaly_container,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/obj/machinery/light/small{
+	dir = 1;
+	on = 1
+	},
+/turf/space,
+/area/space)
 "mG" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/portable_atmospherics/powered/pump/filled,
-/turf/simulated/floor/plating,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "mI" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume/airlock{
@@ -2209,7 +2215,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
 "mN" = (
-/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
 	},
@@ -2235,13 +2240,11 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/workshop)
 "mU" = (
-/obj/effect/paint_stripe/gunmetal,
+/obj/effect/wallframe_spawn/reinforced_phoron,
 /obj/machinery/door/blast/regular{
 	dir = 4;
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Door"
+	id_tag = "fusion_observation"
 	},
-/obj/effect/wallframe_spawn/reinforced_phoron,
 /turf/simulated/floor/plating,
 /area/verne/engineering/smresearch/control)
 "mV" = (
@@ -2296,11 +2299,6 @@
 /obj/effect/floor_decal/techfloor,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
-"nj" = (
-/obj/machinery/suspension_gen,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "nu" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -2341,11 +2339,11 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 5
 	},
-/obj/structure/flora/pottedplant/fern,
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 8;
 	pixel_x = 20
 	},
+/obj/structure/holoplant,
 /turf/simulated/floor/tiled,
 /area/verne/stairs/two)
 "nV" = (
@@ -2390,24 +2388,6 @@
 /obj/structure/railing/mapped,
 /turf/space,
 /area/space)
-"om" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 1
-	},
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "ox" = (
 /obj/effect/floor_decal/industrial/warning/corner,
 /turf/simulated/floor/tiled/techfloor,
@@ -2455,11 +2435,6 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/verne/xenosci/workshop)
-"pa" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/helium,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "pe" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -2490,26 +2465,6 @@
 /obj/effect/floor_decal/corner/b_green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/workshop)
-"pR" = (
-/obj/machinery/button/blast_door{
-	dir = 1;
-	id_tag = "verneblast2";
-	name = "Verne Protective Blast doors";
-	pixel_y = -24
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
-"pV" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/obj/machinery/power/apc/verne{
-	dir = 1;
-	pixel_y = 24
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "pY" = (
 /obj/structure/table/steel,
 /obj/item/paper_bin,
@@ -2522,45 +2477,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
-"qa" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 4;
-	icon_state = "2-4"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 6
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 6
-	},
-/obj/structure/cable{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "qf" = (
-/obj/machinery/power/apc/verne{
-	dir = 4;
-	pixel_x = 24
-	},
 /obj/structure/cable{
+	d1 = 4;
 	d2 = 8;
-	icon_state = "0-8"
+	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/techfloor{
-	dir = 8
-	},
-/obj/machinery/telecomms/processor/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "qj" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2630,46 +2555,16 @@
 	},
 /turf/space,
 /area/space)
-"qE" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/reagent_dispensers/watertank,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "qG" = (
-/obj/machinery/light{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 1
 	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 4
-	},
+/obj/machinery/portable_atmospherics/powered/scrubber,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/comms)
-"qI" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/phoron/engine_setup,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/area/verne/engineering/decktransfer)
 "qL" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 5
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 8;
-	icon_state = "1-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 9
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 9
-	},
-/obj/machinery/firealarm{
-	dir = 4;
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
@@ -2692,7 +2587,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "qV" = (
 /obj/effect/floor_decal/industrial/hatch/red,
 /obj/structure/cable{
@@ -2727,7 +2622,17 @@
 	pixel_y = 24
 	},
 /obj/structure/table/steel,
-/obj/item/board,
+/obj/item/board{
+	pixel_y = -1
+	},
+/obj/item/storage/box/checkers/chess{
+	pixel_x = -8;
+	pixel_y = 14
+	},
+/obj/item/storage/box/checkers/chess/red{
+	pixel_x = 8;
+	pixel_y = 14
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/workshop)
 "rg" = (
@@ -2746,47 +2651,31 @@
 /turf/simulated/floor/plating,
 /area/verne/catfish/engineering)
 "rh" = (
-/obj/structure/cable{
-	d2 = 2;
-	icon_state = "0-2"
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 5
 	},
-/obj/structure/cable{
-	d1 = 16;
-	d2 = 0;
-	icon_state = "16-0"
-	},
-/turf/simulated/floor/plating,
+/obj/machinery/mining/drill,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "rk" = (
-/obj/machinery/atmospherics/valve/digital{
-	dir = 4;
-	id_tag = "verneauxcool"
-	},
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange,
+/obj/machinery/floodlight,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "rn" = (
-/obj/machinery/portable_atmospherics/canister/helium,
-/obj/structure/railing/mapped{
-	dir = 4
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "rp" = (
-/obj/machinery/light_switch{
-	dir = 8;
-	pixel_x = 22
-	},
-/obj/effect/floor_decal/techfloor{
-	dir = 8
-	},
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 8
 	},
-/obj/machinery/telecomms/receiver/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "rs" = (
 /obj/effect/catwalk_plated/dark,
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
@@ -2832,19 +2721,11 @@
 	},
 /turf/simulated/floor/plating,
 /area/verne/catfish/engineering)
-"rv" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/stasis_cage,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "rx" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
@@ -2852,8 +2733,9 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/structure/anomaly_container,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "rK" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 6
@@ -2868,8 +2750,11 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/structure/table/steel,
-/obj/item/device/geiger,
+/obj/machinery/computer/fusion/core_control{
+	dir = 8;
+	initial_id_tag = "aux_fusion_plant";
+	req_access = list("ACCESS_ENGINE_EQUIP")
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "rS" = (
@@ -2889,16 +2774,6 @@
 /obj/item/storage/box/monkeycubes/stokcubes,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci)
-"rY" = (
-/obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Door"
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/smresearch/control)
 "sg" = (
 /obj/effect/floor_decal/industrial/warning/corner{
 	dir = 4
@@ -2919,9 +2794,6 @@
 	pixel_x = -24
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	dir = 8
-	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "su" = (
@@ -2970,11 +2842,9 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
+/obj/structure/anomaly_container,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "sE" = (
 /obj/structure/fuel_port,
 /obj/effect/paint/green,
@@ -3016,15 +2886,15 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
-"tn" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/dispenser/phoron,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "to" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/structure/largecrate{
+	name = "slime crate"
+	},
+/obj/structure/stasis_cage,
+/mob/living/carbon/slime,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "ts" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 8
@@ -3081,13 +2951,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/access)
 "tB" = (
-/obj/machinery/portable_atmospherics/powered/scrubber/huge/stationary,
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 10
 	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/obj/structure/stasis_cage,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "tC" = (
 /obj/structure/closet/crate/plastic,
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -3152,10 +3021,9 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci)
 "ue" = (
-/obj/machinery/atmospherics/pipe/manifold4w/visible/red,
-/obj/machinery/portable_atmospherics/canister/nitrogen/prechilled,
-/obj/effect/floor_decal/industrial/warning,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ug" = (
 /turf/simulated/floor/reinforced,
@@ -3226,66 +3094,21 @@
 /obj/structure/closet/crate/hydroponics/prespawned,
 /turf/simulated/floor/plating,
 /area/verne/hangar)
-"vd" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/hydrogen/engine_setup,
-/obj/machinery/light{
-	dir = 4
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
-"ve" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/visible{
-	dir = 4
-	},
-/obj/machinery/turretid/verne{
-	pixel_y = 26
-	},
-/obj/effect/catwalk_plated/dark,
-/turf/simulated/floor/plating,
-/area/verne/hangar)
 "vg" = (
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 10
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/universal{
-	dir = 4
-	},
+/obj/effect/floor_decal/techfloor/orange,
+/obj/structure/stasis_cage,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "vi" = (
 /obj/machinery/chem_master,
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /turf/simulated/floor/tiled/dark/monotile,
 /area/verne/xenosci/workshop)
-"vj" = (
-/obj/machinery/atmospherics/unary/outlet_injector{
-	dir = 1;
-	frequency = 1438;
-	icon_state = "map_injector";
-	id = "cooling_in_verne_top";
-	name = "Coolant Injector";
-	power_rating = 30000;
-	volume_rate = 700
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/smresearch/control)
 "vo" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -3345,7 +3168,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "vG" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -3377,17 +3200,6 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
-"wc" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red,
-/obj/effect/paint_stripe/gunmetal,
-/obj/effect/wallframe_spawn/reinforced_phoron,
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Door"
-	},
-/turf/simulated/floor/plating,
-/area/verne/engineering/smresearch/control)
 "wd" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 4
@@ -3421,12 +3233,15 @@
 	id_tag = "verneblast";
 	name = "Verne Protective Blast Doors"
 	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
+	},
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
 "wk" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "wn" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
@@ -3471,14 +3286,6 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "wy" = (
-/obj/effect/floor_decal/techfloor,
-/obj/effect/floor_decal/techfloor{
-	dir = 1
-	},
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/engineering{
-	name = "Verne Telecommunications Server"
-	},
 /obj/structure/cable{
 	d1 = 1;
 	d2 = 2;
@@ -3486,34 +3293,24 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/machinery/suspension_gen,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "wz" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
 /turf/simulated/floor/plating,
 /area/verne/hangar)
-"wB" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 10
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/verne/hangar)
 "wF" = (
 /turf/simulated/open,
 /area/verne/stairs/two)
-"wG" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/floodlight,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "wM" = (
-/obj/structure/table/steel,
 /obj/machinery/light{
 	dir = 1
 	},
-/obj/item/device/integrated_circuit_printer/upgraded,
+/obj/machinery/r_n_d/protolathe,
+/obj/effect/floor_decal/industrial/outline/yellow,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "wQ" = (
@@ -3574,19 +3371,10 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 6
 	},
-/obj/machinery/button/toggle/valve{
-	id_tag = "verneauxcool";
-	name = "Aux Cooling Valve Control";
-	pixel_y = -24
-	},
-/obj/machinery/computer/air_control/supermatter_core{
+/obj/machinery/computer/fusion/gyrotron{
 	dir = 8;
-	input_tag = "cooling_in_verne_top";
-	name = "Experimental Supermater Auxiliary Chamber Monitor";
-	output_tag = "cooling_out_verne_top";
-	pressure_setting = 100;
-	sensor_name = "Experimental Supermater Auxiliary Chamber Monitor";
-	sensor_tag = "engine_sensor_verne_top"
+	initial_id_tag = "aux_fusion_plant";
+	req_access = list("ACCESS_ENGINE_EQUIP")
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
@@ -3630,15 +3418,23 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/smresearch/control)
 "xX" = (
-/obj/machinery/portable_atmospherics/canister/nitrogen,
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
-"xY" = (
-/obj/machinery/atmospherics/binary/pump{
-	dir = 8
+/obj/structure/largecrate{
+	name = "materials crate"
 	},
-/turf/simulated/floor/plating,
+/obj/random/material,
+/obj/random/material,
+/obj/random/material,
+/obj/random/material,
+/obj/random/material,
+/obj/random/material,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
+"xY" = (
+/obj/machinery/floodlight,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ya" = (
 /obj/structure/railing/mapped{
@@ -3650,16 +3446,15 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
 "ye" = (
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
 	},
-/obj/effect/floor_decal/techfloor{
-	dir = 8
+/obj/machinery/light/spot{
+	dir = 1
 	},
-/obj/machinery/telecomms/server/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/machinery/portable_atmospherics/powered/scrubber,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "ym" = (
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
@@ -3699,42 +3494,33 @@
 /turf/space,
 /area/space)
 "ys" = (
-/obj/machinery/atmospherics/pipe/simple/visible/red{
-	dir = 6
-	},
-/obj/structure/reagent_dispensers/coolanttank,
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 10
 	},
-/obj/machinery/light/spot{
-	dir = 8
+/obj/machinery/portable_atmospherics/hydroponics{
+	anchored = 0;
+	closed_system = 1;
+	name = "isolation tray"
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "yt" = (
-/obj/machinery/firealarm{
-	dir = 2;
-	pixel_y = 24
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 1
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
-/obj/structure/adherent_bath,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "yB" = (
 /obj/structure/table/steel,
-/obj/item/storage/toolbox/mechanical,
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 8;
 	pixel_x = 20
 	},
+/obj/random/technology_scanner,
+/obj/item/clothing/glasses/welding,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "yE" = (
@@ -3746,23 +3532,20 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/equipment)
-"yF" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 5
-	},
-/obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/pointdefense{
-	initial_id_tag = "Verne_PD_shuttle"
-	},
-/obj/structure/cable/cyan{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/catfish)
 "yM" = (
 /obj/structure/table/steel,
-/obj/item/clothing/glasses/welding,
+/obj/item/stock_parts/circuitboard/engine{
+	pixel_y = -8
+	},
+/obj/item/stock_parts/circuitboard/shuttle_console/explore{
+	pixel_y = -4
+	},
+/obj/item/stock_parts/circuitboard/sensors{
+	pixel_y = 4
+	},
+/obj/item/stock_parts/circuitboard/helm{
+	pixel_y = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "yO" = (
@@ -3806,14 +3589,11 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "yV" = (
-/obj/structure/table/steel,
-/obj/item/storage/box/cola/beastenergy,
+/obj/structure/bed/chair{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
-"zf" = (
-/obj/effect/paint_stripe/gunmetal,
-/turf/simulated/wall/r_wall,
-/area/verne/engineering/external)
 "zo" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 4
@@ -3879,11 +3659,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/verne/catfish/engineering)
-"zK" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/reagent_dispensers/coolanttank,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "zL" = (
 /obj/structure/railing/mapped{
 	dir = 1
@@ -3903,20 +3678,6 @@
 	},
 /turf/simulated/open,
 /area/verne/engineering/smresearch/access)
-"zT" = (
-/obj/effect/wallframe_spawn/reinforced/titanium,
-/obj/machinery/door/blast/regular/open{
-	id_tag = "verneshuttle";
-	name = "Protective Shutters"
-	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/paint_stripe/gunmetal,
-/turf/simulated/floor/plating,
-/area/verne/catfish)
 "zU" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/blast/regular/open{
@@ -4020,12 +3781,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
 "AP" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 1
-	},
-/obj/structure/adherent_pylon,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "AR" = (
 /obj/structure/cable{
 	d1 = 4;
@@ -4116,11 +3873,6 @@
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/b_green/mono,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Bu" = (
@@ -4143,11 +3895,6 @@
 /obj/effect/catwalk_plated/dark,
 /turf/simulated/floor/plating,
 /area/verne/hangar)
-"BC" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/power/rad_collector,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "BH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -4235,7 +3982,6 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Cm" = (
-/obj/effect/floor_decal/industrial/warning,
 /obj/machinery/atmospherics/binary/pump/on{
 	dir = 8
 	},
@@ -4335,11 +4081,6 @@
 /obj/machinery/computer/ship/helm{
 	dir = 4
 	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Dg" = (
@@ -4378,14 +4119,10 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/obj/machinery/computer/air_control/supermatter_core{
+/obj/machinery/computer/fusion/fuel_control{
 	dir = 8;
-	input_tag = "cooling_in_verne_bottom";
-	name = "Experimental Supermater Chamber Monitor";
-	output_tag = "cooling_out_verne_bottom";
-	pressure_setting = 100;
-	sensor_name = "Experimental Supermater Chamber Monitor";
-	sensor_tag = "engine_sensor_verne_bottom"
+	initial_id_tag = "aux_fusion_plant";
+	req_access = list("ACCESS_ENGINE_EQUIP")
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
@@ -4400,20 +4137,13 @@
 /turf/simulated/open,
 /area/verne/hangar)
 "DD" = (
-/obj/structure/closet/radiation,
-/obj/item/clothing/glasses/meson,
-/obj/item/clothing/glasses/meson,
-/obj/item/device/geiger,
-/obj/machinery/light{
-	dir = 8
-	},
 /obj/structure/cable{
 	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
+	d2 = 8;
+	icon_state = "1-8"
 	},
-/obj/item/storage/box/bogrolls,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "DJ" = (
 /obj/structure/bed/chair/shuttle/white{
@@ -4422,28 +4152,23 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/structure/cable/cyan{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
 "DP" = (
 /obj/structure/table/steel,
-/obj/random/technology_scanner,
 /obj/machinery/light,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = -8
+	},
+/obj/item/storage/toolbox/electrical{
+	pixel_y = 8
+	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "DT" = (
 /obj/machinery/hologram/holopad/longrange,
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/cyan{
-	d1 = 2;
-	d2 = 8;
-	icon_state = "2-8"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Ec" = (
@@ -4467,9 +4192,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
 "Ei" = (
-/obj/effect/floor_decal/industrial/warning/corner{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
 	},
@@ -4596,15 +4318,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/catfish)
-"Fw" = (
-/obj/machinery/portable_atmospherics/hydroponics{
-	anchored = 0;
-	closed_system = 1;
-	name = "isolation tray"
-	},
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "FA" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
@@ -4621,26 +4334,8 @@
 /obj/machinery/computer/shuttle_control/explore/verne{
 	dir = 4
 	},
-/obj/machinery/turretid/lethal{
-	ailock = 1;
-	check_arrest = 0;
-	check_records = 0;
-	dir = 1;
-	enabled = 0;
-	pixel_x = 9;
-	pixel_y = -24;
-	req_access = list("ACCESS_VERNE")
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
-"FK" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/light{
-	dir = 4
-	},
-/obj/machinery/power/rad_collector,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Ga" = (
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 1;
@@ -4663,11 +4358,6 @@
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Gt" = (
@@ -4731,10 +4421,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/catfish)
-"GX" = (
-/obj/effect/paint_stripe/gunmetal,
-/turf/simulated/wall/r_wall,
-/area/verne/engineering/comms)
 "GZ" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/alarm/verne{
@@ -4847,15 +4533,17 @@
 	dir = 8;
 	pixel_x = 24
 	},
+/obj/structure/largecrate{
+	name = "slime crate"
+	},
+/obj/structure/stasis_cage,
+/mob/living/carbon/slime,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "HI" = (
 /obj/structure/table/steel,
-/obj/item/storage/toolbox/electrical,
-/obj/item/stock_parts/circuitboard/helm,
-/obj/item/stock_parts/circuitboard/sensors,
-/obj/item/stock_parts/circuitboard/shuttle_console/explore,
-/obj/item/stock_parts/circuitboard/engine,
+/obj/item/device/bot_kit,
+/obj/random/advdevice,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "HQ" = (
@@ -4907,11 +4595,6 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
 "Ib" = (
@@ -4920,20 +4603,15 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 4
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 8
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 10
 	},
+/obj/structure/reagent_dispensers/coolanttank,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/comms)
+/area/verne/engineering/decktransfer)
 "Id" = (
 /obj/effect/floor_decal/techfloor{
 	dir = 4;
@@ -5007,25 +4685,12 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/obj/machinery/button/alternate{
-	desc = "A remote control-switch which toggles the engine emitter.";
-	dir = 4;
-	id_tag = "verneemitter";
-	name = "Engine Emitter";
-	pixel_x = -24;
-	pixel_y = -6;
-	req_access = list("ACCESS_VERNE")
-	},
-/obj/machinery/button/blast_door{
-	desc = "A remote control-switch for the engine charging port.";
-	dir = 4;
-	id_tag = "SupermatterVerne";
-	name = "Reactor Blast Doors";
-	pixel_x = -24;
-	pixel_y = 6
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/machinery/firealarm{
+	dir = 8;
+	pixel_x = -24
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "IS" = (
@@ -5075,11 +4740,6 @@
 /obj/effect/floor_decal/corner/b_green{
 	dir = 9
 	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
@@ -5125,13 +4785,6 @@
 /obj/effect/paint/red,
 /turf/simulated/wall/r_titanium,
 /area/verne/catfish/engineering)
-"Ko" = (
-/obj/machinery/alarm/verne{
-	pixel_y = 24
-	},
-/obj/machinery/atmospherics/unary/vent_pump/on,
-/turf/simulated/floor/plating,
-/area/verne/engineering/decktransfer)
 "Kq" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /obj/structure/handrail{
@@ -5370,11 +5023,6 @@
 	d2 = 4;
 	icon_state = "2-4"
 	},
-/obj/structure/cable/cyan{
-	d1 = 1;
-	d2 = 4;
-	icon_state = "1-4"
-	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply,
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
@@ -5418,11 +5066,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/catfish)
-"Mr" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/closet/crate/uranium,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Mv" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -5435,14 +5078,6 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
-"MC" = (
-/obj/machinery/portable_atmospherics/canister/carbon_dioxide/engine_setup,
-/obj/structure/railing/mapped{
-	dir = 4
-	},
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
 "MK" = (
 /obj/machinery/door/airlock/research{
 	name = "Verme Xenoscience Workshop"
@@ -5450,11 +5085,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/stairs/two)
-"ML" = (
-/obj/machinery/portable_atmospherics/canister/chlorine,
-/obj/effect/floor_decal/industrial/outline/red,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
 "MQ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -5479,12 +5109,12 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
 "Na" = (
-/obj/effect/floor_decal/techfloor{
-	dir = 4
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
 	},
-/obj/machinery/telecomms/bus/map_preset/verne,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/comms)
+/obj/machinery/portable_atmospherics/powered/pump/filled,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "Nf" = (
 /obj/effect/wallframe_spawn/reinforced/titanium,
 /obj/machinery/door/blast/regular/open{
@@ -5506,22 +5136,6 @@
 /obj/effect/floor_decal/corner/b_green/mono,
 /turf/simulated/floor/tiled/monotile,
 /area/verne/stairs/two)
-"Ns" = (
-/obj/machinery/door/airlock/external/bolted{
-	id_tag = "engineeringexterior"
-	},
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/door/blast/regular{
-	dir = 2;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/decktransfer)
 "Nw" = (
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
@@ -5559,13 +5173,6 @@
 /obj/machinery/mineral/processing_unit{
 	input_turf = 4;
 	output_turf = 8
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/verne/hangar)
-"NK" = (
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/machinery/porta_turret{
-	req_access = list("ACCESS_VERNE")
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
@@ -5624,16 +5231,6 @@
 /obj/structure/flora/pottedplant/mysterious,
 /turf/simulated/floor/reinforced,
 /area/verne/xenosci)
-"Ok" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/mining/drill,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
-"Oq" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/methyl_bromide,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Ou" = (
 /obj/effect/floor_decal/industrial/loading,
 /obj/machinery/light/spot{
@@ -5653,17 +5250,13 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
 "OA" = (
-/obj/machinery/air_sensor/engine{
-	id_tag = "engine_sensor_verne_top"
-	},
-/turf/simulated/floor/reinforced/airless,
+/turf/simulated/wall/ocp_wall,
 /area/verne/engineering/smresearch/control)
 "OP" = (
-/obj/machinery/atmospherics/unary/vent_scrubber/on,
-/obj/structure/closet/hydrant{
-	pixel_y = 32
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
 	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "OQ" = (
 /turf/simulated/floor/tiled/techfloor,
@@ -5672,7 +5265,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
+/area/verne/engineering/decktransfer)
 "PB" = (
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -5730,9 +5323,6 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci)
 "Qp" = (
-/obj/structure/bed/chair{
-	dir = 4
-	},
 /obj/effect/floor_decal/techfloor/orange,
 /obj/item/device/radio/intercom/map_preset/verne{
 	dir = 1;
@@ -5751,14 +5341,6 @@
 /obj/effect/floor_decal/corner/b_green/diagonal,
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/equipment)
-"Qx" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/stasis_cage,
-/obj/machinery/light{
-	dir = 8
-	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Qz" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/universal{
 	dir = 4
@@ -5768,29 +5350,14 @@
 /turf/simulated/floor/plating,
 /area/verne/xenosci)
 "QC" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/turf/simulated/floor/plating,
+/obj/effect/floor_decal/techfloor/orange,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "QD" = (
-/obj/effect/floor_decal/industrial/warning,
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "QE" = (
 /obj/effect/catwalk_plated/dark,
@@ -5855,18 +5422,12 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
 "Rc" = (
-/obj/machinery/portable_atmospherics/canister/oxygen,
-/obj/structure/railing/mapped,
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
-"Ri" = (
-/obj/effect/floor_decal/industrial/hatch/red,
-/obj/machinery/porta_turret{
-	req_access = list("ACCESS_VERNE")
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
 	},
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/obj/structure/anomaly_container,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "Rn" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -5894,10 +5455,8 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/workshop)
 "RK" = (
-/obj/machinery/atmospherics/pipe/manifold/visible/red{
-	dir = 1
-	},
-/turf/simulated/floor/plating,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "RP" = (
 /obj/structure/stasis_cage,
@@ -5976,11 +5535,6 @@
 /obj/structure/stasis_cage,
 /turf/simulated/floor/tiled/white,
 /area/verne/catfish)
-"SK" = (
-/obj/machinery/mining/brace,
-/obj/effect/floor_decal/industrial/outline/grey,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "SM" = (
 /obj/item/storage/box/glowsticks,
 /obj/item/storage/belt/utility/full,
@@ -6021,34 +5575,16 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
-"SS" = (
-/obj/structure/cable{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/effect/floor_decal/techfloor,
-/obj/effect/floor_decal/techfloor{
-	dir = 1;
-	icon_state = "techfloor_edges"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance{
-	name = "Verne Lower Utilities Transfer"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/decktransfer)
 "Tc" = (
-/obj/effect/floor_decal/industrial/warning/corner{
+/obj/effect/floor_decal/techfloor/orange/corner{
 	dir = 8
 	},
-/obj/machinery/atmospherics/portables_connector{
-	dir = 4
+/obj/machinery/portable_atmospherics/hydroponics{
+	anchored = 0;
+	closed_system = 1;
+	name = "isolation tray"
 	},
-/obj/machinery/portable_atmospherics/canister/empty,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "Tg" = (
 /turf/simulated/floor/plating,
@@ -6148,7 +5684,8 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating,
+/obj/effect/paint_stripe/gunmetal,
+/turf/simulated/wall/r_wall,
 /area/verne/engineering/decktransfer)
 "Un" = (
 /obj/effect/catwalk_plated/dark,
@@ -6160,14 +5697,11 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "Uo" = (
-/obj/machinery/atmospherics/portables_connector{
-	dir = 8
-	},
-/obj/machinery/portable_atmospherics/canister/nitrogen/prechilled,
-/obj/effect/floor_decal/industrial/warning{
+/obj/effect/floor_decal/techfloor/orange{
 	dir = 4
 	},
-/turf/simulated/floor/plating,
+/obj/structure/ore_box,
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "Us" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -6259,14 +5793,12 @@
 	dir = 4;
 	icon_state = "techfloor_edges"
 	},
-/obj/machinery/door/blast/regular{
-	dir = 4;
-	id_tag = "verneblast";
-	name = "Verne Protective Blast Doors"
-	},
 /obj/machinery/access_button/airlock_exterior{
 	master_tag = "verne_airlock_port";
 	pixel_y = -21
+	},
+/obj/machinery/atmospherics/unary/engine{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
@@ -6512,22 +6044,13 @@
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci/equipment)
 "Wv" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 1
+/obj/structure/largecrate{
+	name = "slime crate"
 	},
+/obj/structure/stasis_cage,
+/mob/living/carbon/slime,
 /turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/storage)
-"WB" = (
-/obj/machinery/portable_atmospherics/hydroponics{
-	anchored = 0;
-	closed_system = 1;
-	name = "isolation tray"
-	},
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/item/storage/box/monkeycubes/spidercubes,
-/obj/item/glass_jar,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
+/area/verne/engineering/decktransfer)
 "WC" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
@@ -6589,11 +6112,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/hangar)
-"Xf" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/structure/closet/crate/internals/fuel,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "Xj" = (
 /obj/machinery/door/airlock/glass/research{
 	name = "Verne Xenoscience Equipment"
@@ -6649,18 +6167,6 @@
 /obj/effect/paint_stripe/gunmetal,
 /turf/simulated/wall/r_wall,
 /area/verne/engineering/smresearch/control)
-"XF" = (
-/obj/machinery/light/small,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
-"XM" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/light{
-	dir = 8
-	},
-/obj/machinery/floodlight,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "XN" = (
 /obj/machinery/atmospherics/pipe/simple/visible/fuel{
 	dir = 6
@@ -6702,9 +6208,8 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "Yc" = (
-/obj/structure/table/steel,
-/obj/random/advdevice,
 /obj/structure/window/reinforced,
+/obj/structure/table/steel,
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/verne/engineering/workshop)
 "Yu" = (
@@ -6731,14 +6236,15 @@
 /turf/simulated/floor/plating,
 /area/verne/xenosci)
 "YD" = (
-/obj/machinery/portable_atmospherics/canister/air,
-/obj/structure/railing/mapped,
 /obj/machinery/light{
 	dir = 8
 	},
-/obj/effect/floor_decal/industrial/outline/blue,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/engineering/storage)
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 8
+	},
+/obj/structure/anomaly_container,
+/turf/simulated/floor/tiled/techfloor,
+/area/verne/engineering/decktransfer)
 "YJ" = (
 /obj/effect/floor_decal/industrial/warning{
 	dir = 8
@@ -6780,13 +6286,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/verne/xenosci)
-"Za" = (
-/obj/structure/lattice,
-/obj/structure/railing/mapped{
-	dir = 1
-	},
-/turf/space,
-/area/space)
 "Zb" = (
 /obj/effect/floor_decal/corner/b_green/diagonal,
 /obj/structure/cable{
@@ -6844,27 +6343,14 @@
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/workshop)
 "ZA" = (
-/turf/simulated/floor/plating,
+/obj/machinery/light/spot{
+	dir = 1
+	},
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
-"ZE" = (
-/obj/effect/floor_decal/industrial/warning{
-	dir = 9
-	},
-/obj/effect/floor_decal/industrial/warning/fulltile,
-/obj/machinery/porta_turret{
-	req_access = list("ACCESS_VERNE")
-	},
-/obj/structure/handrail{
-	dir = 1;
-	icon_state = "handrail"
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/verne/catfish)
-"ZQ" = (
-/obj/effect/floor_decal/industrial/outline/grey,
-/obj/machinery/portable_atmospherics/canister/chlorine,
-/turf/simulated/floor/reinforced/airless,
-/area/verne/engineering/external)
 "ZV" = (
 /obj/structure/closet/hydrant{
 	pixel_x = -32
@@ -12763,7 +12249,7 @@ yr
 yr
 yr
 yr
-Za
+qD
 Ql
 Ql
 Ql
@@ -12874,8 +12360,8 @@ Ql
 Ql
 Ql
 eb
-bz
-bz
+XR
+XR
 UG
 eb
 Ql
@@ -12915,8 +12401,8 @@ jS
 Ql
 Ql
 eW
-Za
-RV
+qD
+Ql
 Ql
 Ql
 Ql
@@ -13005,15 +12491,15 @@ jS
 nV
 yr
 Ql
-GX
-GX
-GX
-GX
-GX
-fy
-fy
-fy
-fy
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
 EJ
 EJ
 EJ
@@ -13027,7 +12513,7 @@ Ql
 Ql
 eb
 Lr
-NK
+OQ
 Xc
 eb
 Ql
@@ -13068,8 +12554,8 @@ Ql
 Ql
 eW
 qD
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13156,16 +12642,16 @@ jS
 Ql
 nV
 yr
-GX
-GX
-GX
-GX
-GX
-GX
-fy
-fy
-fy
-fy
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
 EJ
 EJ
 EJ
@@ -13221,8 +12707,8 @@ jS
 eW
 qD
 Ql
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13308,16 +12794,16 @@ CH
 CH
 ol
 VZ
-GX
-GX
+Nw
+Nw
 kA
 Na
 iY
-GX
+gd
 Rc
 YD
 tB
-fy
+Nw
 Wf
 Dg
 TG
@@ -13374,8 +12860,8 @@ eW
 qD
 Ql
 Ql
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13460,8 +12946,8 @@ Uv
 Uv
 Uv
 Un
-GX
-GX
+Nw
+Nw
 qG
 fY
 Ib
@@ -13469,7 +12955,7 @@ wy
 rx
 sD
 vg
-fy
+Nw
 iK
 hT
 hk
@@ -13523,14 +13009,14 @@ ug
 wi
 Ql
 eW
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13612,16 +13098,16 @@ hb
 hb
 xI
 sz
-GX
-GX
+Nw
+Nw
 ye
 qf
 rp
-GX
+AP
 yt
 Pi
 gK
-fy
+Nw
 Id
 uk
 Hr
@@ -13631,8 +13117,8 @@ EJ
 eG
 QT
 wd
+OQ
 ox
-Xn
 Xn
 zo
 zo
@@ -13674,16 +13160,16 @@ UV
 mB
 mB
 jS
-XF
-zf
-XM
-wG
-qE
-rv
-rv
-Qx
-zf
-zf
+eW
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13764,17 +13250,17 @@ Ql
 Ql
 nV
 CO
-GX
-GX
-GX
-GX
-GX
-GX
+Nw
+Nw
+OP
+rn
+AP
+AP
 AP
 wk
 gU
-fy
-fy
+Nw
+Nw
 EJ
 fU
 eC
@@ -13784,7 +13270,7 @@ jo
 ya
 ig
 mN
-ZE
+Vz
 zt
 Bs
 Bs
@@ -13825,17 +13311,17 @@ mB
 mB
 mB
 mB
+mE
+eW
+qD
 Ql
-LM
-gH
-WB
-Fw
-Fw
-nj
-nj
-mE
-mE
-zf
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -13916,9 +13402,9 @@ Ql
 Ql
 nV
 sz
-fy
-fy
-MC
+Nw
+Nw
+OP
 rn
 bT
 ac
@@ -13936,8 +13422,8 @@ NH
 QT
 BT
 Cm
-yF
-zT
+Vz
+zU
 Bt
 De
 FA
@@ -13978,16 +13464,16 @@ dx
 mB
 mB
 jS
-pR
-zf
-zK
-Mr
-Mr
-Mr
-mE
-mE
-zf
-zf
+eW
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14068,9 +13554,9 @@ Ql
 Ql
 nV
 sz
-fy
-fy
-ML
+Nw
+Nw
+OP
 aw
 ce
 xX
@@ -14088,7 +13574,7 @@ jo
 pi
 BT
 Ei
-wB
+Vz
 zU
 Cg
 DJ
@@ -14131,14 +13617,14 @@ ug
 dA
 Ql
 eW
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14220,17 +13706,17 @@ Ql
 Ql
 nV
 sz
-fy
-fy
-fy
-fy
-fy
-fy
-fy
-fy
-fy
-fy
-fy
+Nw
+Nw
+OP
+bz
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
+Nw
 EJ
 fU
 hn
@@ -14284,13 +13770,13 @@ mB
 Ql
 eW
 qD
-jS
 Ql
 Ql
-jS
 Ql
 Ql
-jS
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14370,9 +13856,9 @@ Ql
 RV
 Ql
 Ql
-Ri
+LM
 iU
-Ns
+Ud
 Ud
 mG
 DD
@@ -14391,7 +13877,7 @@ Sd
 Sd
 Sd
 Sd
-ve
+BT
 Vz
 zt
 zt
@@ -14436,13 +13922,13 @@ mB
 Ql
 eW
 qD
-jS
 Ql
 Ql
-jS
 Ql
 Ql
-RV
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14526,12 +14012,12 @@ nV
 sz
 Nw
 Nw
-pV
-qa
-SS
+OP
+QC
+Nw
 qL
 ed
-dZ
+yV
 fo
 yV
 Qp
@@ -14588,13 +14074,13 @@ mB
 Ql
 eW
 qD
-jS
 Ql
 Ql
-jS
 Ql
 Ql
-jS
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14678,7 +14164,7 @@ nV
 sz
 Nw
 Nw
-Ko
+OP
 QC
 Nw
 Xv
@@ -14739,14 +14225,14 @@ ug
 dC
 Ql
 eW
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14832,14 +14318,14 @@ Nw
 Nw
 OP
 QD
-bC
+ys
 Nw
 Xv
-Xv
+gH
 mU
-aT
-aT
-Xv
+mU
+mU
+gH
 RX
 iv
 iL
@@ -14890,16 +14376,16 @@ UV
 mB
 mB
 jS
-LM
-zf
-ZQ
-pa
-Oq
-BC
-BC
-BC
-zf
-zf
+eW
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -14983,15 +14469,15 @@ CO
 Nw
 Nw
 aD
-aX
+AP
 Tc
 ys
-wc
-cx
-jq
-jq
-jq
 Xv
+OA
+jq
+jq
+jq
+gH
 gg
 gh
 ev
@@ -15041,17 +14527,17 @@ mB
 mB
 mB
 mB
+mE
+eW
+qD
 Ql
-LM
-gH
-SK
-SK
-Ok
-gd
-tn
-BC
-BC
-zf
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15135,15 +14621,15 @@ sz
 Nw
 Nw
 ZA
-kg
+AP
 xY
 rk
-rY
+Xv
 OA
 jq
 jq
 jq
-Xv
+gH
 dY
 ho
 ml
@@ -15194,16 +14680,16 @@ kc
 mB
 mB
 jS
-XF
-zf
-vd
-qI
-Xf
-zK
-zK
-FK
-zf
-zf
+eW
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15287,15 +14773,15 @@ QE
 Nw
 Nw
 fr
-om
+AP
 RK
 ue
-wc
-vj
-jq
-jq
-jq
 Xv
+OA
+jq
+jq
+jq
+gH
 wM
 ng
 Yc
@@ -15347,14 +14833,14 @@ LZ
 dF
 Ql
 eW
-zf
-zf
-zf
-zf
-zf
-zf
-zf
-zf
+qD
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15443,11 +14929,11 @@ br
 Uo
 ab
 Xv
-Xv
-Xv
-Xv
-Xv
-Xv
+gH
+gH
+gH
+gH
+gH
 mf
 ep
 aV
@@ -15502,8 +14988,8 @@ eW
 qD
 Ql
 Ql
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15653,8 +15139,8 @@ jS
 eW
 qD
 Ql
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15763,7 +15249,7 @@ Ql
 Ql
 eb
 Lr
-NK
+OQ
 Wi
 eb
 Ql
@@ -15804,8 +15290,8 @@ Ql
 Ql
 eW
 qD
-jS
-jS
+Ql
+Ql
 Ql
 Ql
 Ql
@@ -15914,8 +15400,8 @@ Ql
 Ql
 Ql
 eb
-bz
-bz
+XR
+XR
 gZ
 eb
 Ql
@@ -15955,8 +15441,8 @@ jS
 Ql
 Ql
 eW
-Za
-RV
+qD
+Ql
 Ql
 Ql
 Ql
@@ -16107,7 +15593,7 @@ yr
 yr
 yr
 eW
-Za
+qD
 Ql
 Ql
 Ql
