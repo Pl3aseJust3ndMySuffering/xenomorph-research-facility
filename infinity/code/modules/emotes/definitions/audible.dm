@@ -129,5 +129,5 @@
 
 /decl/emote/audible/moan
 	emote_sound = list(
-		FEMALE = list('infinity/sound/voice/moan1.ogg', 'infinity/sound/voice/moan2.ogg',  'infinity/sound/voice/moan3.ogg'), 'infinity/sound/voice/moan4.ogg')
+		FEMALE = list('infinity/sound/voice/moan1.ogg', 'infinity/sound/voice/moan2.ogg',  'infinity/sound/voice/moan3.ogg', 'infinity/sound/voice/moan4.ogg'))
 	sounded_species = SOUNDED_SPECIES
