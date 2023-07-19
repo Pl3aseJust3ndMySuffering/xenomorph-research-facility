@@ -3,7 +3,10 @@
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 6
 	},
-/obj/structure/ore_box,
+/obj/machinery/mining/drill,
+/obj/machinery/light/spot{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ac" = (
@@ -202,7 +205,7 @@
 	pixel_y = 24
 	},
 /obj/effect/floor_decal/techfloor/orange{
-	dir = 1
+	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
@@ -350,11 +353,8 @@
 /turf/simulated/floor/plating,
 /area/verne/hangar)
 "br" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 4
-	},
-/obj/machinery/mining/brace,
-/turf/simulated/floor/tiled/techfloor,
+/obj/item/ladder_mobile,
+/turf/simulated/floor/plating,
 /area/verne/engineering/decktransfer)
 "bt" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
@@ -1326,11 +1326,8 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/smresearch/control)
 "fr" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 1
-	},
-/obj/machinery/mining/brace,
-/turf/simulated/floor/tiled/techfloor,
+/obj/item/remains/human,
+/turf/simulated/floor/plating,
 /area/verne/engineering/decktransfer)
 "fs" = (
 /obj/effect/floor_decal/techfloor/orange{
@@ -2651,16 +2648,12 @@
 /turf/simulated/floor/plating,
 /area/verne/catfish/engineering)
 "rh" = (
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 5
-	},
-/obj/machinery/mining/drill,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/closet/crate/freezer/rations,
+/turf/simulated/floor/plating,
 /area/verne/engineering/decktransfer)
 "rk" = (
-/obj/effect/floor_decal/techfloor/orange,
-/obj/machinery/floodlight,
-/turf/simulated/floor/tiled/techfloor,
+/obj/structure/mattress/dirty,
+/turf/simulated/floor/plating,
 /area/verne/engineering/decktransfer)
 "rn" = (
 /obj/structure/cable{
@@ -3022,7 +3015,9 @@
 /area/verne/xenosci)
 "ue" = (
 /obj/effect/floor_decal/techfloor/orange,
-/obj/structure/ore_box,
+/obj/machinery/mining/brace{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ug" = (
@@ -3433,7 +3428,9 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "xY" = (
-/obj/machinery/floodlight,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "ya" = (
@@ -3496,11 +3493,6 @@
 "ys" = (
 /obj/effect/floor_decal/techfloor/orange{
 	dir = 10
-	},
-/obj/machinery/portable_atmospherics/hydroponics{
-	anchored = 0;
-	closed_system = 1;
-	name = "isolation tray"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
@@ -5456,6 +5448,9 @@
 /area/verne/xenosci/workshop)
 "RK" = (
 /obj/structure/ore_box,
+/obj/effect/floor_decal/techfloor/orange{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "RP" = (
@@ -5579,10 +5574,8 @@
 /obj/effect/floor_decal/techfloor/orange/corner{
 	dir = 8
 	},
-/obj/machinery/portable_atmospherics/hydroponics{
-	anchored = 0;
-	closed_system = 1;
-	name = "isolation tray"
+/obj/effect/floor_decal/techfloor/orange/corner{
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
@@ -5697,10 +5690,10 @@
 /turf/simulated/floor/reinforced/airless,
 /area/verne/engineering/external)
 "Uo" = (
+/obj/machinery/mining/brace,
 /obj/effect/floor_decal/techfloor/orange{
-	dir = 4
+	dir = 5
 	},
-/obj/structure/ore_box,
 /turf/simulated/floor/tiled/techfloor,
 /area/verne/engineering/decktransfer)
 "Us" = (
@@ -6342,15 +6335,6 @@
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/verne/xenosci/workshop)
-"ZA" = (
-/obj/machinery/light/spot{
-	dir = 1
-	},
-/obj/effect/floor_decal/techfloor/orange{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/verne/engineering/decktransfer)
 "ZV" = (
 /obj/structure/closet/hydrant{
 	pixel_x = -32
@@ -14469,7 +14453,7 @@ CO
 Nw
 Nw
 aD
-AP
+xY
 Tc
 ys
 Xv
@@ -14620,10 +14604,10 @@ wn
 sz
 Nw
 Nw
-ZA
-AP
-xY
-rk
+Nw
+Nw
+OP
+QC
 Xv
 OA
 jq
@@ -14771,9 +14755,9 @@ Uv
 Uv
 QE
 Nw
-Nw
+br
 fr
-AP
+Nw
 RK
 ue
 Xv
@@ -14923,9 +14907,9 @@ hb
 wR
 VZ
 Nw
-Nw
+rk
 rh
-br
+Nw
 Uo
 ab
 Xv
